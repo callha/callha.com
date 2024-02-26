@@ -13,11 +13,11 @@ export default function Home() {
         <div className="hero-overlay bg-opacity-60"></div>
         <div className=" flex justify-center items-center text-center h-[calc(100vh-85px)] text-neutral-content">
           <div className="max-w-2xl ">
-            <h1 className="mb-5 text-7xl font-bold text-white">
-              <a className="text-[#C0E218] ">CoinIPFS</a> ERC404</h1>
+            <h1 className="mb-5 text-5xl sm:text-7xl font-bold text-white">
+              <a className="text-[#C0E218]">CoinIPFS</a> ERC404</h1>
             <p className="mb-5 text-white">Explore various applications of ERC404 as a new token standard</p>
 
-            <Link className="btn btn-primary hover:text-[#3f1de7]" href={'/mint'}>Get mint</Link>
+            <Link role="button" className="btn btn-primary btn-outline mt-12 hover:text-[#3f1de7] text-2xl font-bold" href={'/mint'}>Get mint</Link>
           </div>
         </div>
       </div>

@@ -8,7 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      
+      borderColor: {
+        DEFAULT: 'rgba(192, 226, 24, 0.3)',
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -24,7 +26,7 @@ const config: Config = {
 "primary": "#C0E218",
 "secondary": "#3f1de7",
 "accent": "#00ffff",
-"neutral": "#65a30d",
+"neutral": "#9dba0d",
 "base-100": "#ffffff",
 "info": "#ca8a04",
 "success": "#00ff00",
@@ -37,7 +39,7 @@ const config: Config = {
           "primary": "#C0E218",
           "secondary": "#3f1de7",
           "accent": "#00ffff",
-          "neutral": "#65a30d",
+          "neutral": "#9dba0d",
           "base-100": "#000000",
           "info": "#ca8a04",
           "success": "#00ff00",
