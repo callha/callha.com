@@ -6,7 +6,7 @@ import Link from "next/link"
 import { useAccount } from 'wagmi'
 import { config } from "@/config"
 export default function page() {
-    const account  = useAccount({ config })
+    
     return (
         <div>
 
@@ -14,7 +14,7 @@ export default function page() {
             <MintNFT />
 
             <div>
-                <Link target='_blank' href={`https://www.oklink.com/cn/middle/multi-search#key=${account}`}>account</Link>
+                <Link target='_blank' href={`https://www.oklink.com/cn/middle/multi-search#key=`}>account</Link>
             </div>
         </div>
     )
