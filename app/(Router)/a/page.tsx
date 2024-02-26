@@ -11,7 +11,7 @@ export default function page() {
         <div>
 
             <SendTransaction />
-            <MintNFT />
+            
 
             <div>
                 <Link target='_blank' href={`https://www.oklink.com/cn/middle/multi-search#key=`}>account</Link>
