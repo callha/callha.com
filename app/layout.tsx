@@ -3,11 +3,12 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "./gui/Header";
 import Footer from "./gui/Footer";
-import Providers from '../config/providers'
+
+import Providers from './providers'
 import { headers } from 'next/headers'
 import { cookieToInitialState } from 'wagmi'
-import { config } from '@/config'
-import {ContextProvider} from '@/context'
+import { config } from '@/config/wagmi'
+import { ContextProvider } from '@/context/web3modal'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -29,10 +30,10 @@ export default function RootLayout({
       </head>
       <body className={inter.className}>
         <Providers>
-        <ContextProvider initialState={initialState}>
-          <Header />
-          {children}
-          <Footer />
+          <ContextProvider initialState={initialState}>
+            <Header />
+            {children}
+            <Footer />
           </ContextProvider>
         </Providers>
       </body>

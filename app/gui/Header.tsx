@@ -1,7 +1,6 @@
 'use client'
 import { usePathname } from "next/navigation";
 import Link from "next/link";
-import './Header.css'
 import { motion } from "framer-motion";
 import ThemeSwap from "./ThemeSwap";
 import { RiSettingsLine } from "react-icons/ri";

@@ -33,10 +33,7 @@ export default function SendTransaction() {
     <form onSubmit={submit}>
       <input name="address" placeholder="发送至地址" required  className='textarea textarea-primary'/>
       <input name="value" placeholder="发送数量" required className='textarea textarea-primary'/>
-      <button 
-        disabled={isPending} 
-        type="submit"
-      >
+      <button disabled={isPending} type="submit"className='btn'>
         {isPending ? '钱包确认中...' : '发送'} 
       </button>
       {hash && <div>交易哈希地址: {hash}</div>} {/* 交易哈希地址 */}

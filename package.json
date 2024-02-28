@@ -10,13 +10,17 @@
   },
   "dependencies": {
     "@tanstack/react-query": "^5.24.1",
+    "@uniswap/widgets": "^2.59.0",
     "@web3modal/wagmi": "^4.0.10",
     "framer-motion": "^11.0.6",
+    "lokijs": "^1.5.12",
     "next": "14.1.0",
     "next-themes": "^0.2.1",
+    "pino-pretty": "^10.3.1",
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^5.0.1",
+    "react-redux": "^8.1.3",
     "viem": "^2.7.14",
     "wagmi": "^2.5.7"
   },
@@ -31,5 +35,7 @@
     "postcss": "^8",
     "tailwindcss": "^3.3.0",
     "typescript": "^5"
+  },"browser": {
+    "brotli": false
   }
 }
