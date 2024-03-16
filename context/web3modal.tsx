@@ -65,10 +65,6 @@ export function ContextProvider({
   const { theme } = useTheme();
   const { themeMode, themeVariables, setThemeMode, setThemeVariables, } = useWeb3ModalTheme()
   setThemeMode(theme === 'dark' ? 'dark' : 'light')
-  /*   setThemeVariables({
-          '--w3m-accent': '#C0E218',
-          '--w3m-color-mix-strength': 40
-    }) */
   return (
     <WagmiProvider config={config} initialState={initialState}>
       <QueryClientProvider client={queryClient}>{children}</QueryClientProvider>

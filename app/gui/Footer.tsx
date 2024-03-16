@@ -5,11 +5,11 @@ import { RiNftFill } from "react-icons/ri";
 import { motion } from "framer-motion";
 export default function Footer() {
     return (
-        <div className="flex justify-around">
+        <div className="bg-base-200">
 
-            <div className="max-w-screen-2xl ">
+            <div className="flex justify-center ">
 
-                <footer className="footer p-10 bg-base-200 text-base-content ">
+                <footer className="footer max-w-screen-2xl  p-10  text-base-content">
                     <aside>
                         <img src="/C_logo.png" alt="C_logo.png" className="w-12 h-12" />
                         <p>Copyright © 2024<br />CoinIPFS All Rights Reserved</p>
@@ -37,7 +37,7 @@ export default function Footer() {
                 </footer>
             </div>
 
-            {/* 
+
             <footer className="footer px-10 py-4 border-t bg-base-200 text-base-content border-base-300">
 
                 <nav className="md:place-self-center md:justify-self-end">
@@ -47,7 +47,7 @@ export default function Footer() {
                         <motion.div whileHover={{ scale: 1.05 }} > <a><FaGithub className="w-8 h-8" /></a></motion.div>
                     </div>
                 </nav>
-            </footer> */}
+            </footer>
 
 
         </div >

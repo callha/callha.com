@@ -1,5 +1,5 @@
 
-import { defaultWagmiConfig } from '@web3modal/wagmi/react/config'
+
 
 import { cookieStorage, createConfig, createStorage, http } from 'wagmi'
 import { coinbaseWallet, injected, walletConnect, } from 'wagmi/connectors'
@@ -19,21 +19,7 @@ const metadata = {
   icons: ['/favicon.ico']
 }
 
-
-
-// Create wagmiConfig
-export const config = defaultWagmiConfig({
- 
-  projectId, // required
-  metadata, // required
-  ssr: true,
-  storage: createStorage({
-    storage: cookieStorage
-  }),
-  enableWalletConnect: true, // Optional - true by default
-  enableInjected: true, // Optional - true by default
-  enableEIP6963: true, // Optional - true by default
-  enableCoinbase: true, // Optional - true by default
+export const config = createConfig({
   chains: [mainnet, polygon, arbitrum, optimism, linea, zkSync, sepolia, arbitrumSepolia, zkSyncSepoliaTestnet,],
   transports: {
     [mainnet.id]: http(`https://mainnet.infura.io/v3/${process.env.INFURA_KEY}`),
@@ -60,6 +46,9 @@ export const config = defaultWagmiConfig({
       appLogoUrl: metadata.icons[0]
     })
   ],
-  multiInjectedProviderDiscovery: true,
-  syncConnectedChain: true,
+  ssr: true,
+  storage: createStorage({
+    storage: cookieStorage
+  })
 })
+
