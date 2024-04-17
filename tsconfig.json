@@ -19,8 +19,8 @@
     ],
     "paths": {
       "@/*": ["./*"],
-      "@/components*": ["./app/components*"],
-      "@/gui*": ["./app/gui*"],
+      "@/components*": ["./components*"],
+      "@/gui*": ["./gui*"],
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "swap/page.jsx"],

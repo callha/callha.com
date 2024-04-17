@@ -22,9 +22,10 @@ export default function Header() {
 
 
                         <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-32">
-                            <li><LinkNavbar href='/' Name='Home' /></li>
-                            <li><LinkNavbar href='/mint' Name='Mint' /></li>
-                            <li><LinkNavbar href='/swap' Name='Swap' /></li>
+                        <li><LinkNavbar href='/' Name='首页' /></li>
+                        <li><LinkNavbar href='/products' Name='产品' /></li>
+                        <li><LinkNavbar href='/blog' Name='博客' /></li>
+                        <li><LinkNavbar href='/a' Name='测试' /></li>
                         </ul>
                     </div>
 
@@ -40,10 +41,10 @@ export default function Header() {
                 {/* 手机隐藏navbar-center */}
                 <div className="navbar-center hidden sm:flex">{/* 中 */}
                     <ul className="menu menu-horizontal px-1 gap-4">
-                        <li><LinkNavbar href='/' Name='Home' /></li>
-                        <li><LinkNavbar href='/mint' Name='Mint' /></li>
-                        <li><LinkNavbar href='/swap' Name='Swap' /></li>
-                        <li><LinkNavbar href='/a' Name='a' /></li>
+                        <li><LinkNavbar href='/' Name='首页' /></li>
+                        <li><LinkNavbar href='/products' Name='产品' /></li>
+                        <li><LinkNavbar href='/blog' Name='博客' /></li>
+                        <li><LinkNavbar href='/a' Name='测试' /></li>
                         {/*                     <li>
                         <details>
                             <summary>Parent</summary>
@@ -63,21 +64,14 @@ export default function Header() {
 
                         <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
                             <div tabIndex={0} className="btn  btn-square btn-sm btn-ghost m-1">
-                                <RiSettingsLine size={'32'} />
+                            <ThemeSwap />
                             </div>
                         </motion.div>
-
-                        <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box sm:w-30 border">
-                            <w3m-network-button />
-                            <div className="divider"></div>
-                            <ThemeSwap />
-                        </ul>
-
+                       
+               
                     </div>
 
-                    <motion.div whileHover={{ scale: 1 }} whileTap={{ scale: 0.9 }}>
-                        <w3m-button balance='hide' size="md" label="Connect" />
-                    </motion.div>
+
 
                 </div>
 

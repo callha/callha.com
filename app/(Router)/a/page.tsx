@@ -1,5 +1,5 @@
 'use client'
-import SendTransaction from "@/app/components/SendTransaction"
+import SendTransaction from "@/components/SendTransaction"
 //import { MintNFT } from "@/app/components/MintNFT"
 //import ReadContract from "@/app/components/ReadContract"
 import Link from "next/link"

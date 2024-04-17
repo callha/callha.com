@@ -14,10 +14,11 @@ export default function Home() {
         <div className=" flex justify-center items-center text-center h-[calc(100vh-85px)] text-neutral-content">
           <div className="max-w-2xl ">
             <h1 className="mb-5 text-5xl sm:text-7xl font-bold text-white">
-              <a className="text-[#C0E218]">CoinIPFS</a> ERC404</h1>
-            <p className="mb-5 text-white">Explore various applications of ERC404 as a new token standard</p>
+              <a className="text-[#C0E218]">CoinIPFS</a></h1>
+            <p className="mb-5 text-white text-2xl">让互联网变得可拥有、可信任、有价值
+              探索创新的Web3商业模式</p>
 
-            <Link role="button" className="btn btn-primary btn-outline mt-12 hover:text-[#3f1de7] text-2xl font-bold" href={'/mint'}>Get mint</Link>
+            <Link role="button" className="btn btn-primary btn-outline mt-12 hover:text-[#3f1de7] text-2xl font-bold" href={'/mint'}>团队产品</Link>
           </div>
         </div>
       </div>

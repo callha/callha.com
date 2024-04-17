@@ -5,16 +5,14 @@ import Header from "./gui/Header";
 import Footer from "./gui/Footer";
 
 import Providers from './providers'
-import { headers } from 'next/headers'
-import { cookieToInitialState } from 'wagmi'
-import { config } from '@/config/wagmi'
-import { ContextProvider } from '@/context/web3modal'
+
+
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "CoinIPFS ERC404",
-  description: "Explore various applications of ERC404 as a new token standard,CoinIPFS ERC404,NFT,Token,mimt",
+  title: "CoinIPFS",
+  description: "CoinIPFS",
 };
 
 export default function RootLayout({
@@ -22,7 +20,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const initialState = cookieToInitialState(config, headers().get('cookie'))
+
   return (
     <html lang="en">
       <head>
@@ -30,11 +28,9 @@ export default function RootLayout({
       </head>
       <body className={inter.className}>
         <Providers>
-          <ContextProvider initialState={initialState}>
             <Header />
             {children}
             <Footer />
-          </ContextProvider>
         </Providers>
       </body>
     </html>

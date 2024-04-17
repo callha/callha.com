@@ -1,5 +1,5 @@
 {
-  "name": "coinipfs-erc404",
+  "name": "coinipfs",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,7 +10,6 @@
   },
   "dependencies": {
     "@tanstack/react-query": "^5.24.1",
-    "@uniswap/widgets": "^2.59.0",
     "@web3modal/wagmi": "^4.0.10",
     "framer-motion": "^11.0.6",
     "lokijs": "^1.5.12",
