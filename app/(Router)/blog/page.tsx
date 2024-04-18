@@ -7,7 +7,7 @@ export default function page() {
 
             <iframe
                 className="h-[100vh] min-w-[100vw]"
-             
+
                 src={`https://service.syncswap.net/widget?overlay=true&dark=true`}
             />
 
