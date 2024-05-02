@@ -9,7 +9,7 @@ export default function Footer() {
 
             <div className="flex justify-center ">
 
-                <footer className="footer max-w-screen-2xl  p-10  text-base-content">
+                <footer className="footer max-w-screen-xl  p-10  text-base-content">
                     <aside>
                         <img src="/C_logo.png" alt="C_logo.png" className="w-12 h-12" />
                         <p>Copyright © 2024<br />CoinIPFS All Rights Reserved</p>

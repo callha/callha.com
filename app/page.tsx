@@ -15,9 +15,9 @@ export default function Home() {
           <div className="max-w-2xl ">
             <h1 className="mb-5 text-5xl sm:text-7xl font-bold text-white">
               <a className="text-[#C0E218]">CoinIPFS</a></h1>
-            <p className="mb-5 text-white text-2xl">让互联网变得可拥有、可信任、有价值</p>
+            <p className="mb-5 text-white text-2xl">让互联网可拥有、可信任、有价值</p>
               <p className="mb-5 text-white text-2xl">
-              探索创新的Web3商业模式,构建真正意义的Web3</p>
+              探索创新的模式，构建理想主义的Web3</p>
             <Link role="button" className="btn btn-primary btn-outline mt-12 hover:text-[#3f1de7] text-2xl font-bold" href={'/products'}>团队产品</Link>
           </div>
         </div>

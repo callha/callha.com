@@ -8,7 +8,7 @@ export default function Header() {
     const pathname = usePathname();
     return (
         <div className="Navbar_Header  flex justify-around">
-            <div className="navbar bg-base-100 max-w-screen-2xl">
+            <div className="navbar bg-base-100 max-w-screen-xl">
 
                 <div className="navbar-start">{/* 左 */}
 
