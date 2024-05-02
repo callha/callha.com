@@ -7,7 +7,7 @@ export default function ThemeSwap() {
     return (
         <>
             <aside className="items-center grid-flow-col ">
-                <label className="swap swap-rotate justify-center">
+                <label className="swap swap-rotate justify-center ">
                     <input type="checkbox" className="theme-controller" value="synthwave" />
 
                     <RiSunLine className="swap-on fill-current w-7 h-7" onClick={() => setTheme('dark')} />

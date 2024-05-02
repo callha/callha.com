@@ -2,7 +2,7 @@
 
 export default function Products() {
   return (
-    <div className=" min-h-[calc(100vh-85px)] flex justify-evenly items-center">
+    <div className=" min-h-[calc(100vh-69px)] flex justify-evenly items-center">
 
       <Cord src='/img/qiancset.png' name='Qiancset' text='去中心化的房屋租赁服务应用' />
       <Cord src='/img/vimcord.png' name='Vimcord' text='基于Lens协议开发的去中心化社交应用' />
