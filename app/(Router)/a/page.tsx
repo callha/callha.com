@@ -4,7 +4,7 @@
 export default function page() {
     //const account  = useAccount({ config })
     return (
-        <div  className=" min-h-[calc(100vh-69px)]">
+        <div  className=" min-h-[100vh]">
 
             test
 

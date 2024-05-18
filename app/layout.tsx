@@ -28,11 +28,12 @@ export default function RootLayout({
       </head>
       <body className={inter.className}>
         <Providers>
-            <Header />
-            {children}
-            <Footer />
+          <Header />
+          {children}
+          <Footer />
         </Providers>
       </body>
     </html>
   );
 }
+

@@ -11,6 +11,7 @@
 [data-theme='dark'] {
     --a-hover: #C0E218;
     --w3m-accent-color: var(--a-hover);
+
 }
 
 a:hover {
@@ -26,10 +27,7 @@ a:hover {
     color: #3f1de7 !important;
 }
 
-.Navbar_Header {
-    border-bottom: 1px solid rgba(204, 204, 204, 0.3);
 
-}
 
 /*--选择器----*/
 ::selection {
