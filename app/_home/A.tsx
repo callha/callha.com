@@ -36,13 +36,12 @@ export default function Example() {
 
 
         <div className="mx-auto max-w-2xl lg:text-center">
-          <h2 className="text-base font-semibold leading-7 text-[#C0E218]">Deploy faster</h2>
+          <h2 className="text-xl font-semibold leading-7 text-[#3f1de7]  dark:text-[#C0E218]">关于我们</h2>
           <p className="mt-2 text-3xl font-bold tracking-tight  sm:text-4xl">
-            Everything you need to deploy your app
+            我们来自用户，既是构建者，也是拥有者
           </p>
           <p className="mt-6 text-lg leading-8 text-[#6a6a6a]">
-            Quis tellus eget adipiscing convallis sit sit eget aliquet quis. Suspendisse eget egestas a elementum
-            pulvinar et feugiat blandit at. In mi viverra elit nunc.
+            秉持开放、自由、平等、创新、包容的理念，始终以大公无私的价值观<br />先进技术和远见是未来保持竞争力的核心<br />创造激动人心的产品，做伟大的事
           </p>
         </div>
 

@@ -1,4 +1,4 @@
-
+'use client'
 import Link from 'next/link';
 import Image from "next/image";
 import A from "./_home/A";
@@ -6,6 +6,7 @@ import B from "./_home/B";
 import C from "./_home/C";
 import E from "./_home/E";
 import D from "./_home/D";
+import { motion } from 'framer-motion';
 
 export default function Home() {
 
@@ -14,21 +15,27 @@ export default function Home() {
 
       <div className=" min-h-[100vh] relative isolate overflow-hidden" style={{ backgroundImage: 'url(/repeated-square-dark.png)' }}>
         <div className="hero-overlay bg-opacity-60"></div>
-        <div className=" flex justify-center items-center text-center h-[calc(100vh-69px)] text-neutral-content">
+        <div className=" flex justify-center items-center text-center  lg:text-left h-[calc(100vh-69px)] text-neutral-content lg:flex-row flex-col-reverse">
           <div className="max-w-2xl ">
             <h1 className="mb-16 text-5xl sm:text-7xl font-bold text-white">
               <a className="text-[#C0E218]">CoinIPFS</a></h1>
 
             <p className="mb-5 text-white text-2xl">让数据信息可拥有、可信任、有价值</p>
 
-            <p className="mb-5 text-white text-2xl">探索创新构建<b className="text-[#C0E218]">理想Web3</b></p>
+            <p className="mb-5 text-white text-2xl">探索创新构建的<b className="text-[#3f1de7]">理想Web3</b></p>
 
-            <p className="mb-5 text-white text-xl">Web3发展至今不仅仅是技术，更是一种能延伸到各领域的积极理念</p>
+            <p className="mb-5 text-white">Web3发展至今不仅仅是技术，更是一种能延伸到各领域的积极理念</p>
 
-            <Link role="button" className="btn btn-primary btn-outline mt-12 hover:text-[#3f1de7] text-2xl font-bold" href={'/products'}>产品 →</Link>
+            <Link role="button" className="btn btn-primary mt-12 hover:text-[#3f1de7] text-2xl font-bold" href={'/products'}>产品服务 →</Link>
 
-            <Link role="button" className="btn btn-primary btn-outline mt-12 ml-12 text-[#C0E218] hover:text-[#3f1de7] text-2xl font-bold" href={'/products'}>产品 →</Link>
+            <Link role="button" className="btn btn-primary btn-outline mt-12 ml-12 text-[#C0E218] hover:text-[#3f1de7] text-2xl font-bold" href={'/products'}>联系我们 →</Link>
           </div>
+
+          <motion.div
+            animate={{ x: 100 }}
+            transition={{ type: "spring", stiffness: 100 }}
+          > <img src="/C_logo.png" alt="C_logo.png" className=' image-full w-60 lg:w-96 m-4 lg:ml-32' /></motion.div>
+
         </div>
 
         <Absolute />

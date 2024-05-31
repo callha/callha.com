@@ -93,7 +93,7 @@ export default function Header() {
 function LinkNavbar({ href, Name }: any) {
     const pathname = usePathname();
     return (
-        <Link href={href} className={`header_link font-bold ${pathname === `${href}` ? "active" : ""
+        <Link href={href} className={`header_link font-bold text-xl ${pathname === `${href}` ? "active" : ""
             }`}>
             {Name}
         </Link>
