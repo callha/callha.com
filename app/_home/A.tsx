@@ -1,22 +1,23 @@
-import { FaBtc ,FaEthereum,FaCommentsDollar ,FaDonate  } from "react-icons/fa";
+import { FaBtc, FaEthereum, FaCommentsDollar, FaDonate } from "react-icons/fa";
+import { RiAlertLine } from "react-icons/ri";
 
 const features = [
   {
-    name: 'Push to deploy',
+    name: '使命',
     description:
-      'Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.',
+      '让数据信息可拥有、可信任、有价值，让用户轻松掌控自己的数据，让世界变得更理想美好',
     icon: FaBtc,
   },
   {
-    name: 'SSL certificates',
+    name: '愿景',
     description:
-      'Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.',
+      '为推动互联网进步，创造激动人心的公共产品',
     icon: FaEthereum,
   },
   {
-    name: 'Simple queues',
+    name: '价值观',
     description:
-      'Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.',
+      '秉持开放、自由、平等、创新、包容的理念，始终以用户为核心的价值观，不希望利益化和过度金融化，所有收益合理分配',
     icon: FaCommentsDollar,
   },
   {
@@ -30,29 +31,40 @@ const features = [
 export default function Example() {
   return (
     <div className="bg-[base-100] py-24 sm:py-32 ">
+      
+
+
 
 
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
 
 
-        <div className="mx-auto max-w-2xl lg:text-center">
-          <h2 className="text-xl font-semibold leading-7 text-[#3f1de7]  dark:text-[#C0E218]">关于我们</h2>
+
+        <div className="mx-auto max-w-4xl lg:text-center">
+
+          <h2 className="text-xl font-semibold leading-7 text-info">关于我们</h2>
           <p className="mt-2 text-3xl font-bold tracking-tight  sm:text-4xl">
             我们来自用户，既是构建者，也是拥有者
           </p>
           <p className="mt-6 text-lg leading-8 text-[#6a6a6a]">
-            秉持开放、自由、平等、创新、包容的理念，始终以大公无私的价值观<br />先进技术和远见是未来保持竞争力的核心<br />创造激动人心的产品，做伟大的事
+            CoinIPFS Labs 出自中国，遵守当地法律制度及不同地区的法律制度前提下，探索创新技术和实验
+            <br />
+            由世界各地不同地区的人组建的公共组织，产品和服务由 CoinIPFS Labs 引领，社区共同参与治理
+            <br />
+            希望探索出符合社会主义和向共产主义前进的技术和理论，不仅仅为互联网进步，更希望为世界文明进步做贡献
+            <br />
+
           </p>
         </div>
 
 
 
-        <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
-          <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-5 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
+        <div className="mx-auto mt-16 max-w-2xl sm:mt-20 md:max-w-4xl">
+          <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-5 md:max-w-none md:grid-cols-2 lg:gap-y-16">
             {features.map((feature) => (
               <div key={feature.name} className="relative pl-20 shadow-md p-6 bg-[#C0E218]">
                 <dt className=" text-base font-semibold leading-7 text-[#000]">
-                  <div className="absolute left-5 top-7 flex h-10 w-10 items-center justify-center rounded-lg bg-[#C0E218]">
+                  <div className="absolute left-5 top-7 flex h-10 w-10 items-start  rounded-lg bg-[#C0E218]">
                     <feature.icon className="h-6 w-6 text-[#3f1de7]" aria-hidden="true" />
                   </div>
                   {feature.name}

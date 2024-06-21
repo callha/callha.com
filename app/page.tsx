@@ -7,6 +7,7 @@ import C from "./_home/C";
 import E from "./_home/E";
 import D from "./_home/D";
 import { motion } from 'framer-motion';
+import { RiAlertLine } from 'react-icons/ri';
 
 export default function Home() {
 
@@ -18,11 +19,11 @@ export default function Home() {
         <div className=" flex justify-center items-center text-center  lg:text-left h-[calc(100vh-69px)] text-neutral-content lg:flex-row flex-col-reverse">
           <div className="max-w-2xl ">
             <h1 className="mb-16 text-5xl sm:text-7xl font-bold text-white">
-              <a className="text-[#C0E218]">CoinIPFS</a></h1>
+              <a className="text-[#C0E218]">CoinIPFS</a> Labs</h1>
 
             <p className="mb-5 text-white text-2xl">让数据信息可拥有、可信任、有价值</p>
 
-            <p className="mb-5 text-white text-2xl">探索创新构建的<b className="text-[#3f1de7]">理想Web3</b></p>
+            <p className="mb-5 text-white text-2xl">探索创新构建的<b className="text-[#3f1de7] bg-primary">理想Web3</b></p>
 
             <p className="mb-5 text-white">Web3发展至今不仅仅是技术，更是一种能延伸到各领域的积极理念</p>
 
@@ -31,14 +32,16 @@ export default function Home() {
             <Link role="button" className="btn btn-primary btn-outline mt-12 ml-12 text-[#C0E218] hover:text-[#3f1de7] text-2xl font-bold" href={'/products'}>联系我们 →</Link>
           </div>
 
-          <motion.div
-            animate={{ x: 100 }}
-            transition={{ type: "spring", stiffness: 100 }}
-          > <img src="/C_logo.png" alt="C_logo.png" className=' image-full w-60 lg:w-96 m-4 lg:ml-32' /></motion.div>
+          <img src="/C_logo.png" alt="C_logo.png" className=' image-full w-60 lg:w-96 m-4 lg:ml-32' />
 
         </div>
 
         <Absolute />
+
+        <div role="alert" className="alert alert-warning flex justify-center mt-20">
+        <RiAlertLine className="h-6 w-6"/>
+          <span>本站所有内容存在虚构，仅用于测试</span>
+        </div>
 
       </div>
 

@@ -8,7 +8,7 @@ export default function C() {
             {stats.map((stat) => (
               <div key={stat.id} className="mx-auto flex max-w-xs flex-col gap-y-8">
                 <dt className="text-base leading-7 ">{stat.name}</dt>
-                <dd className="order-first text-3xl font-semibold tracking-tight text-[#3f1de7] sm:text-5xl">
+                <dd className="order-first text-3xl font-semibold tracking-tight text-info sm:text-5xl">
                   {stat.value}
                 </dd>
               </div>
@@ -23,7 +23,7 @@ export default function C() {
   )
 }
 const stats = [
-  { id: 1, name: 'Transactions every 28 hours', value: '88 million' },
+  { id: 1, name: 'Transactions every 24 hours', value: '88 million' },
   { id: 2, name: 'Assets under holding', value: '$119 trillion' },
   { id: 3, name: 'New users annually', value: '86,000' },
 ]
