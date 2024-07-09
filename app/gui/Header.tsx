@@ -8,8 +8,8 @@ import { FaStream } from "react-icons/fa";
 export default function Header() {
     const pathname = usePathname();
     return (
-        <div className="Navbar_Header justify-around sm:m-6 z-50  flex  fixed top-0 left-0 right-0 transition-transform duration-300 ">
-            <div className="navbar bg-base-100 max-w-screen-xl mx-auto  shadow-md ">
+        <div className="Navbar_Header justify-around sm:m-6 z-50  flex  fixed top-0 left-0 right-0 transition-transform duration-300">
+            <div className="navbar bg-base-200 sm:border-4 max-w-screen-xl mx-auto  shadow-md ">
 
                 <div className="navbar-start flex sm:hidden">{/* 左 */}
                     <div className="drawer">
@@ -53,7 +53,7 @@ export default function Header() {
                 <div className="navbar-center hidden sm:flex">{/* 中 */}
                     <ul className="menu menu-horizontal px-1 gap-4">
                         <li><LinkNavbar href='/' Name='首页' /></li>
-                        <li><LinkNavbar href='/products' Name='产品' /></li>
+                        <li><LinkNavbar href='/products' Name='业务' /></li>
                         <li><LinkNavbar href='/blog' Name='博客' /></li>
                         <li><LinkNavbar href='/a' Name='测试' /></li>
                         {/*                     <li>
