@@ -11,7 +11,7 @@ export default function Footer() {
                 <footer className="footer max-w-screen-xl  p-10  text-base-content">
                     <aside>
                         <img src="/C_logo.png" alt="C_logo.png" className="w-12 h-12" />
-                        <p>Copyright © 2024<br />CoinIPFS All Rights Reserved</p>
+                        <p>Copyright © 2024<br />CallHa All Rights Reserved</p>
                     </aside>
                     <nav>
                         <h6 className="footer-title">Services</h6>
@@ -39,7 +39,7 @@ export default function Footer() {
                 <footer className="footer max-w-screen-xl  p-10  text-base-content">
                     <aside>
                         <img src="/C_logo.png" alt="C_logo.png" className="w-12 h-12" />
-                        <p>版权所有 © 2024<br />CoinIPFS All Rights Reserved</p>
+                        <p>版权所有 © 2024<br />CallHa All Rights Reserved</p>
                         <p>ICP备案：桂ICP备20240709号-1</p>
                         <p>联系地址：广西河池</p>
                         <p>联系电话：123456789</p>

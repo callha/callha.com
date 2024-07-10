@@ -11,8 +11,8 @@ import Providers from './providers'
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "CoinIPFS",
-  description: "CoinIPFS",
+  title: "CallHa",
+  description: "CallHa",
 };
 
 export default function RootLayout({

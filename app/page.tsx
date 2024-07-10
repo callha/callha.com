@@ -19,7 +19,7 @@ export default function Home() {
         <div className=" flex justify-center items-center text-center  lg:text-left h-[calc(100vh-69px)] text-neutral-content lg:flex-row flex-col-reverse">
           <div className="max-w-2xl ">
             <h1 className="mb-16 text-5xl sm:text-7xl font-bold text-white">
-              <a className="text-[#C0E218]">CoinIPFS</a> Labs</h1>
+              <a className="text-[#C0E218]">CallHa</a> Labs</h1>
 
             <p className="mb-5 text-white text-2xl">让数据信息可拥有、可信任、有价值</p>
 
