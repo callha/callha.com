@@ -1,39 +1,39 @@
 const people = [
   {
-    name: 'Leslie Alexander',
+    name: 'JiangBan Qin',
     role: 'Co-Founder / CEO',
     imageUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      'https://qinjiangban.site/favicon.ico',
   },
   {
     name: 'Michael Foster',
     role: 'Co-Founder / CTO',
     imageUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      '/logo/mmexport1718594597809.png',
   },
   {
     name: 'Dries Vincent',
     role: 'Business Relations',
     imageUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      '/logo/mmexport1718594874283.png',
   },
    {
     name: 'Lindsay Walton',
     role: 'Front-end Developer',
     imageUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      '/logo/mmexport1718594962229.png',
   },
   {
     name: 'Courtney Henry',
     role: 'Designer',
     imageUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      '/logo/mmexport1718594975810.png',
   },
   {
     name: 'Leslie Alexander',
     role: 'Director of Product',
     imageUrl:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+      '/logo/mmexport1718594597809.png',
   },
   // More people...
 ]
@@ -43,7 +43,7 @@ export default function D() {
     <div className="bg-[#3f1de7] py-24 sm:py-32">
       <div className="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
         <div className="max-w-2xl bg-[#C0E218] p-2">
-          <h2 className="text-3xl font-bold tracking-tight  sm:text-4xl text-[#000]">认识我们的领导团队</h2>
+          <h2 className="text-3xl font-bold tracking-tight  sm:text-4xl text-[#000]">认识我们团队</h2>
           <p className="mt-6 text-lg leading-8 text-[#000]">
             出色的团队，需要人才
           </p>

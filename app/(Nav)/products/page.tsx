@@ -5,8 +5,8 @@ export default function Products() {
   return (
     <div className="h-full md:h-dvh p-4 md:p-0 flex justify-evenly items-center sm:flex-row flex-col ">
 
-        <Cord src='/img/qiancset.png' name='Qiancset' href='https://qiancset.com' text='去中心化的房屋租赁服务应用' />
-        <Cord src='/img/coinipfs.png' name='CoinIPFS' href='https://coinipfs.com' text='基于Lens协议开发的去中心化社交应用' />
+        <Cord src='/img/qiancset.png' name='Qiancset' href='https://qiancset.com' text='去中心化的房屋租赁服务应用 (域名过期...)' />
+        <Cord src='/img/coinipfs.png' name='HaYi' href='https://coinipfs.com' text='基于Lens协议开发的去中心化社交应用 (开发中...)' />
 
     </div>
   )

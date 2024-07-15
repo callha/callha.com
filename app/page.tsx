@@ -1,9 +1,9 @@
 'use client'
 import Link from 'next/link';
 import Image from "next/image";
-import A from "./_home/A";
-import B from "./_home/B";
-import C from "./_home/C";
+import A from "./_home/C";
+import B from "./_home/A";
+import C from "./_home/B";
 import E from "./_home/E";
 import D from "./_home/D";
 import { motion } from 'framer-motion';
@@ -29,7 +29,7 @@ export default function Home() {
 
             <Link role="button" className="btn btn-primary mt-12 hover:text-[#3f1de7] text-2xl font-bold" href={'/products'}>产品服务 →</Link>
 
-            <Link role="button" className="btn btn-primary btn-outline mt-12 ml-12 text-[#C0E218] hover:text-[#3f1de7] text-2xl font-bold" href={'/products'}>联系我们 →</Link>
+            <Link role="button" className="btn btn-primary btn-outline mt-12 ml-12 text-[#C0E218] hover:text-[#3f1de7] text-2xl font-bold" href={'/contact_us'}>联系我们 →</Link>
           </div>
 
           <img src="/C_logo.png" alt="C_logo.png" className=' image-full w-60 lg:w-96 m-4 lg:ml-32' />
