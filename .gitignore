@@ -16,6 +16,7 @@
 # production
 /build
 /sol
+.contentlayer
 # misc
 .DS_Store
 *.pem

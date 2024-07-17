@@ -38,10 +38,9 @@ export default function Footer() {
                 </footer>
             </div> */}
             <div className="flex justify-center ">
-                <footer className="footer max-w-screen-xl  p-10  text-base-content">
+                <footer className="footer max-w-screen-xl p-6 lg:p-8  text-base-content">
                     <aside>
-                        <img src="/C_logo.png" alt="C_logo.png" className="w-12 h-12" />
-                        <p>版权所有 © 2024<br />CallHa All Rights Reserved</p>
+                        <img src="favicon.ico" alt="favicon.ico" className="w-12 h-12" />
                         <p>ICP备案：桂ICP备20240709号-1</p>
                         <p>联系地址：广西河池</p>
                         <p>联系电话：123456789</p>
@@ -78,38 +77,40 @@ export default function Footer() {
                     </nav>
                 </footer>
             </div>
+            <div className="flex justify-center border-t bg-base-200 text-base-content border-base-300 ">
+                <footer className="footer  max-w-screen-xl px-6 lg:px-8 py-4">
+                <nav className="place-self-start ">
+                <p>酷哈版权所有 © 2024 CallHa All Rights Reserved</p>
+                    </nav>
+                    <nav className="md:place-self-end ">
+                        <div className="grid grid-flow-col gap-4">
+                            <motion.div whileHover={{ scale: 1.05 }} >
+                                <Link href="https://x.com/callha" target='_blank'>
+                                    <FaSquareXTwitter className="w-8 h-8" />
+                                </Link >
+                            </motion.div>
 
-            <footer className="footer px-10 py-4 border-t bg-base-200 text-base-content border-base-300">
+                            <motion.div whileHover={{ scale: 1.05 }} >
+                                <Link href="https://discord.com/callha" target='_blank'>
+                                    <FaDiscord className="w-8 h-8" />
+                                </Link >
+                            </motion.div>
 
-                <nav className="md:place-self-center md:justify-self-end">
-                    <div className="grid grid-flow-col gap-4">
-                        <motion.div whileHover={{ scale: 1.05 }} >
-                            <Link href="https://x.com/callha" target='_blank'>
-                                <FaSquareXTwitter className="w-8 h-8" />
-                            </Link >
-                        </motion.div>
+                            <motion.div whileHover={{ scale: 1.05 }} >
+                                <Link href="https://github.com/callha" target='_blank'>
+                                    <FaGithub className="w-8 h-8" />
+                                </Link >
+                            </motion.div>
 
-                        <motion.div whileHover={{ scale: 1.05 }} >
-                            <Link href="https://discord.com/callha" target='_blank'>
-                                <FaDiscord className="w-8 h-8" />
-                            </Link >
-                        </motion.div>
-
-                        <motion.div whileHover={{ scale: 1.05 }} >
-                            <Link href="https://github.com/callha" target='_blank'>
-                                <FaGithub className="w-8 h-8" />
-                            </Link >
-                        </motion.div>
-
-                        <motion.div whileHover={{ scale: 1.05 }} >
-                            <Link href="https://www.douyin.com/user/MS4wLjABAAAAJnJeg10T2H-qWzjz1QpIjUgBtUU2kXi-Y2MM2unaDC2VEzkvliDMqQQN3jZikXBG" target='_blank'>
-                                <FaTiktok className="w-8 h-8" />
-                            </Link >
-                        </motion.div>
-                    </div>
-                </nav>
-            </footer>
-
+                            <motion.div whileHover={{ scale: 1.05 }} >
+                                <Link href="https://www.douyin.com/user/MS4wLjABAAAAJnJeg10T2H-qWzjz1QpIjUgBtUU2kXi-Y2MM2unaDC2VEzkvliDMqQQN3jZikXBG" target='_blank'>
+                                    <FaTiktok className="w-8 h-8" />
+                                </Link >
+                            </motion.div>
+                        </div>
+                    </nav>
+                </footer>
+            </div >
 
         </div >
     )

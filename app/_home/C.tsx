@@ -31,18 +31,13 @@ const features = [
 export default function Example() {
   return (
     <div className="bg-[base-100] py-24 sm:py-32 ">
-      
-
-
-
-
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
 
 
 
         <div className="mx-auto max-w-4xl lg:text-center">
 
-          <h2 className="text-xl font-semibold leading-7 text-info">关于我们</h2>
+          <h1 className="text-xl font-semibold leading-7 text-info">关于我们</h1>
           <p className="mt-2 text-3xl font-bold tracking-tight  sm:text-4xl">
             我们来自用户，既是构建者，也是拥有者
           </p>
@@ -77,12 +72,10 @@ export default function Example() {
 
 
 
+
+
+
       </div>
-
-
-
-
-
     </div>
   )
 }

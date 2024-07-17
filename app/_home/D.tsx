@@ -2,42 +2,35 @@ const people = [
   {
     name: 'JiangBan Qin',
     role: 'Co-Founder / CEO',
-    imageUrl:
-      'https://qinjiangban.site/favicon.ico',
+    imageUrl: 'https://qinjiangban.site/favicon.ico',
   },
   {
     name: 'Michael Foster',
     role: 'Co-Founder / CTO',
-    imageUrl:
-      '/logo/mmexport1718594597809.png',
+    imageUrl: '/logo/LOGO白底图.png',
   },
   {
     name: 'Dries Vincent',
     role: 'Business Relations',
-    imageUrl:
-      '/logo/mmexport1718594874283.png',
+    imageUrl: '/logo/LOGO副图.png',
   },
-   {
+  {
     name: 'Lindsay Walton',
     role: 'Front-end Developer',
-    imageUrl:
-      '/logo/mmexport1718594962229.png',
+    imageUrl: '/logo/LOGO黑底图.png',
   },
   {
     name: 'Courtney Henry',
     role: 'Designer',
-    imageUrl:
-      '/logo/mmexport1718594975810.png',
+    imageUrl: '透明LOGO黑色.png',
   },
   {
     name: 'Leslie Alexander',
     role: 'Director of Product',
-    imageUrl:
-      '/logo/mmexport1718594597809.png',
+    imageUrl: '透明LOGO白色.png',
   },
   // More people...
 ]
-
 export default function D() {
   return (
     <div className="bg-[#3f1de7] py-24 sm:py-32">

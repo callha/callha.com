@@ -3,11 +3,24 @@ import Link from "next/link"
 
 export default function Products() {
   return (
-    <div className="h-full md:h-dvh p-4 md:p-0 flex justify-evenly items-center sm:flex-row flex-col ">
+    <div className=" py-24 sm:py-32 ">
+      <div className="mx-auto max-w-7xl lg:px-8  ">
 
-        <Cord src='/img/qiancset.png' name='Qiancset' href='https://qiancset.com' text='去中心化的房屋租赁服务应用 (域名过期...)' />
-        <Cord src='/img/coinipfs.png' name='HaYi' href='https://coinipfs.com' text='基于Lens协议开发的去中心化社交应用 (开发中...)' />
 
+        <h1 className="text-xl font-semibold leading-7 text-info text-center">产品</h1>
+        <div className=" flex justify-evenly items-center sm:flex-row flex-col ">
+          <Cord src='/img/qiancset.png' name='Qiancset' href='https://qiancset.com' text='去中心化的房屋租赁服务应用 (域名过期...)' />
+          <Cord src='/img/coinipfs.png' name='HaYi' href='https://coinipfs.com' text='基于Lens协议开发的去中心化社交应用 (开发中...)' />
+        </div>
+
+        <h1 className="text-xl font-semibold leading-7 text-info text-center mt-32">服务</h1>
+        <div className=" flex justify-evenly items-center sm:flex-row flex-col ">
+          <Cord src='/img/qiancset.png' name='Qiancset' href='https://qiancset.com' text='去中心化的房屋租赁服务应用 (域名过期...)' />
+          <Cord src='/img/coinipfs.png' name='HaYi' href='https://coinipfs.com' text='基于Lens协议开发的去中心化社交应用 (开发中...)' />
+        </div>
+
+
+      </div>
     </div>
   )
 }

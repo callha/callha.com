@@ -1,11 +1,11 @@
 'use client'
 import Link from 'next/link';
 import Image from "next/image";
-import A from "./_home/C";
-import B from "./_home/A";
-import C from "./_home/B";
-import E from "./_home/E";
+import A from "./_home/A";
+import B from "./_home/B";
+import C from "./_home/C";
 import D from "./_home/D";
+import E from "./_home/E";
 import { motion } from 'framer-motion';
 import { RiAlertLine } from 'react-icons/ri';
 
@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <main className=''>
 
-      <div className=" min-h-[100vh] relative isolate overflow-hidden" style={{ backgroundImage: 'url(/repeated-square-dark.png)' }}>
+      <div className=" min-h-[100vh]  relative isolate overflow-hidden" style={{ backgroundImage: 'url(/repeated-square-dark.png)' }}>
         <div className="hero-overlay bg-opacity-60"></div>
         <div className=" flex justify-center items-center text-center  lg:text-left h-[calc(100vh-69px)] text-neutral-content lg:flex-row flex-col-reverse">
           <div className="max-w-2xl ">
@@ -32,7 +32,7 @@ export default function Home() {
             <Link role="button" className="btn btn-primary btn-outline mt-12 ml-12 text-[#C0E218] hover:text-[#3f1de7] text-2xl font-bold" href={'/contact_us'}>联系我们 →</Link>
           </div>
 
-          <img src="/C_logo.png" alt="C_logo.png" className=' image-full w-60 lg:w-96 m-4 lg:ml-32' />
+          <img src="/头像大图透明绿色.png" alt="头像大图透明绿色.png" className=' image-full w-60 lg:w-96 m-4 lg:ml-32' />
 
         </div>
 
