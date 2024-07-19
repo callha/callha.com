@@ -11,7 +11,7 @@ const features = [
   {
     name: '愿景',
     description:
-      '为推动互联网进步，创造激动人心的产品',
+      '为推动互联网进步，创造激动人心的产品服务',
     icon: FaEthereum,
   },
   {

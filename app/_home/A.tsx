@@ -1,8 +1,33 @@
+import Link from "next/link"
+
 const people = [
   {
-    imageUrl: 'https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg',
-    title: '生活小窍门',
-    description: '如何将车停在车库？',
+    href: '/products/#教培',
+    title: '教培',
+  },
+  {
+    href: '/products/#咨询',
+    title: '咨询',
+  },
+  {
+    href: '/products/#市场',
+    title: '市场',
+  },
+  {
+    href: '/products/#营销',
+    title: '营销',
+  },
+  {
+    href: '/products/#策划',
+    title: '策划',
+  },
+  {
+    href: '/products/#设计',
+    title: '设计',
+  },
+  {
+    href: '/products/#开发',
+    title: '开发',
   }
 ]
 
@@ -16,27 +41,11 @@ export default function Example() {
         <h1 className="text-xl font-semibold leading-7 text-info">产品服务</h1>
 
 
-        <div className="mx-auto mt-16 max-w-2xl sm:mt-20 md:max-w-4xl">
-          <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-5 md:max-w-none md:grid-cols-2 lg:gap-y-16">
+        <div className="mx-auto mt-16 max-w-2xl sm:mt-12 md:max-w-2xl">
+          <dl className="grid max-w-xl grid-cols-1 gap-x-5 gap-y-5 md:max-w-none md:grid-cols-2">
 
             {people.map((person) => (
-              <div className="card glass sm:w-96">
-
-                <figure>
-                  <img
-                    src={person.imageUrl}
-                    alt="car!" />
-                </figure>
-
-                <div className="card-body">
-                  <h2 className="card-title">{person.title}</h2>
-                  <p>{person.description}</p>
-                  <div className="card-actions justify-end">
-                    <button className="btn btn-primary">查看</button>
-                  </div>
-                </div>
-
-              </div>
+              <Link href={person.href} className="btn btn-outline btn-primary text-xl">{person.title} →</Link>
             ))}
 
 

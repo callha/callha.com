@@ -4,16 +4,17 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import ThemeSwap from "./ThemeSwap";
 import { RiCloseLargeFill, RiMenuFill } from "react-icons/ri";
+import Image from "next/image";
 export default function Header() {
     const pathname = usePathname();
     return (
-        <div className="Navbar_Header justify-around md:m-6 z-50  flex  fixed top-0 left-0 right-0 transition-transform duration-300">
+        <div className="Navbar_Header justify-around  z-50  flex  fixed top-0 left-0 right-0 transition-transform duration-300">
             <div className="navbar bg-base-200 md:border-4 max-w-screen-xl mx-auto  shadow-md ">
 
                 <div className="navbar-start">{/* 左 */}
                     <Link href={'/'} className="">
                         <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
-                            <img src="/favicon.ico" alt="favicon.ico" className="w-10 h-10" />
+                            <Image src="/头像LOGO图.png" alt="头像LOGO图.png" width={40} height={40} className=" rounded-full"/>
                         </motion.div>
                     </Link>
                 </div>
@@ -50,20 +51,16 @@ export default function Header() {
                         </motion.div>
 
                         <div className="drawer">
-
                             <input id="my-drawer" type="checkbox" className="drawer-toggle " />
-
                             <div className="drawer-content">
-                                <label htmlFor="my-drawer" className="drawer-overlay">
-                                    <div tabIndex={0} role="button" className="btn  btn-square btn-sm btn-ghost md:hidden swap swap-flip">
+                                <label htmlFor="my-drawer" className="drawer-overlay drawer-button btn  btn-square btn-sm btn-ghost md:hidden swap swap-flip">
                               
-                                            <RiMenuFill className=" w-7 h-7 " />
-                                           {/*  <RiCloseLargeFill className=" w-7 h-7 swap-off" /> */}
+                              
+                                            <RiMenuFill className=" w-7 h-7 swap-off" />
+                                            <RiCloseLargeFill className=" w-7 h-7 swap-on" />
                                    
-                                    </div>
                                 </label>
                             </div>
-
                             <div className="drawer-side">
                                 <label htmlFor="my-drawer" aria-label="close sidebar" className="drawer-overlay"></label>
                                 <ul className="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
@@ -74,8 +71,10 @@ export default function Header() {
                                     <li><LinkNavbar href='/a' Name='测试' /></li>
                                 </ul>
                             </div>
-
                         </div>
+
+
+
                     </div>
 
 
