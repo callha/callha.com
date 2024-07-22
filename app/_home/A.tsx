@@ -45,7 +45,7 @@ export default function Example() {
           <dl className="grid max-w-xl grid-cols-1 gap-x-5 gap-y-5 md:max-w-none md:grid-cols-2">
 
             {people.map((person) => (
-              <Link href={person.href} className="btn btn-outline btn-primary text-xl">{person.title} →</Link>
+              <Link href={person.href} className="btn btn-primary btn-active text-xl hover:text-secondary">{person.title} →</Link>
             ))}
 
 

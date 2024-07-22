@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export default function Products() {
   return (
-    <div className=" py-24 sm:py-32 ">
+    <div className="py-12">
       <div className="mx-auto max-w-7xl lg:px-8  ">
 
 
@@ -42,7 +42,7 @@ function Cord({ src, name, text, href }: any) {
         <h2 className="card-title">{name}</h2>
         <p>{text}</p>
         <div className="card-actions justify-end">
-          <Link href={href} className="btn btn-primary" target='_blank'>前往↗</Link>
+          <Link href={href} className="btn btn-primary hover:text-secondary" target='_blank'>前往↗</Link>
         </div>
       </div>
     </div>

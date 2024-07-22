@@ -47,25 +47,25 @@ export default function Footer() {
                     </aside>
                     <nav>
                         <h6 className="footer-title">产品</h6>
-                        <Link href="/" className="link link-hover" target='_blank'>Dapp↗</Link >
+                        <Link href="https://coinipfs.com" className="link link-hover" target='_blank'>Dapp↗</Link >
                         <Link href="/" className="link link-hover" target='_blank'>NFT↗</Link >
                     </nav>
                     <nav>
                         <h6 className="footer-title">业务</h6>
-                        <Link href="/" className="link link-hover">教学培训</Link >
-                        <Link href="/" className="link link-hover">信息咨询</Link >
-                        <Link href="/" className="link link-hover">市场研究</Link >
-                        <Link href="/" className="link link-hover">营销服务</Link >
-                        <Link href="/" className="link link-hover">策划方案</Link >
-                        <Link href="/" className="link link-hover">设计创意</Link >
-                        <Link href="/" className="link link-hover">开发软件</Link >
+                        <Link href="/products/#教培" className="link link-hover">教学培训</Link >
+                        <Link href="/products/#咨询" className="link link-hover">信息咨询</Link >
+                        <Link href="/products/#市场" className="link link-hover">市场研究</Link >
+                        <Link href="/products/#营销" className="link link-hover">营销服务</Link >
+                        <Link href="/products/#策划" className="link link-hover">策划方案</Link >
+                        <Link href="/products/#设计" className="link link-hover">设计创意</Link >
+                        <Link href="/products/#开发" className="link link-hover">开发软件</Link >
                     </nav>
                     <nav>
-                        <h6 className="footer-title">公司</h6>
+                        <h6 className="footer-title">关于</h6>
                         <Link href="/about_us" className="link link-hover">关于我们</Link >
                         <Link href="/contact_us" className="link link-hover">联系我们</Link >
                         <Link href="/jobs" className="link link-hover">工作机会</Link >
-                        <Link href="/blog" className="link link-hover">博客资料</Link >
+                        <Link href="/blog" className="link link-hover">博客动态</Link >
                     </nav>
                     <nav>
                         <h6 className="footer-title">法律</h6>

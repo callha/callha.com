@@ -24,9 +24,8 @@ export default function Header() {
                     <ul className="menu menu-horizontal px-1 gap-4">
                         <li><LinkNavbar href='/' Name='首页' /></li>
                         <li><LinkNavbar href='/products' Name='业务' /></li>
-                        <li><LinkNavbar href='/a' Name='案例' /></li>
+                        <li><LinkNavbar href='/case' Name='案例' /></li>
                         <li><LinkNavbar href='/blog' Name='博客' /></li>
-                        <li><LinkNavbar href='/a' Name='测试' /></li>
                         {/*                         <li>
                             <details className="header_link font-bold text-xl">
                                 <summary>Parent</summary>
@@ -66,9 +65,8 @@ export default function Header() {
                                 <ul className="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
                                     <li><LinkNavbar href='/' Name='首页' /></li>
                                     <li><LinkNavbar href='/products' Name='业务' /></li>
-                                    <li><LinkNavbar href='/a' Name='案例' /></li>
+                                    <li><LinkNavbar href='/case' Name='案例' /></li>
                                     <li><LinkNavbar href='/blog' Name='博客' /></li>
-                                    <li><LinkNavbar href='/a' Name='测试' /></li>
                                 </ul>
                             </div>
                         </div>

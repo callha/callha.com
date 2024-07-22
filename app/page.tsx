@@ -23,13 +23,13 @@ export default function Home() {
 
             <p className="mb-5 text-white text-2xl">让数据信息可拥有、可信任、有价值</p>
 
-            <p className="mb-5 text-white text-2xl">探索创新构建的<b className="text-[#3f1de7] bg-primary">理想Web3</b></p>
+            <p className="mb-5 text-white text-2xl">探索创新构建的<b className="">理想Web3</b></p>
 
             <p className="mb-5 text-white">Web3发展至今不仅仅是技术，更是一种能延伸到各领域的积极理念</p>
 
-            <Link role="button" className="btn btn-primary mt-12 hover:text-[#3f1de7] text-2xl font-bold" href={'/products'}>产品服务 →</Link>
+            <Link role="button" className="btn btn-primary mt-12 hover:text-[#3f1de7] text-2xl font-bold" href={'/products'}>业务范围 →</Link>
 
-            <Link role="button" className="btn btn-primary btn-outline mt-12 ml-12 text-[#C0E218] hover:text-[#3f1de7] text-2xl font-bold" href={'/contact_us'}>联系我们 →</Link>
+            <Link role="button" className="btn btn-primary btn-outline mt-12 ml-12 text-base-100 hover:text-[#3f1de7] text-2xl font-bold" href={'/contact_us'}>联系我们 →</Link>
           </div>
 
           <img src="/头像大图透明绿色.png" alt="头像大图透明绿色.png" className=' image-full w-60 lg:w-96 m-4 lg:ml-32' />
