@@ -3,18 +3,20 @@ import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import ThemeSwap from "./ThemeSwap";
-import { RiCloseLargeFill, RiMenuFill } from "react-icons/ri";
+import { RiCloseLargeFill, RiMenuFill, RiMoonLine, RiSunLine } from "react-icons/ri";
 import Image from "next/image";
+import { useTheme } from "next-themes";
 export default function Header() {
     const pathname = usePathname();
+    const { theme, setTheme } = useTheme();
     return (
         <div className="Navbar_Header justify-around  z-50  flex  fixed top-0 left-0 right-0 transition-transform duration-300">
             <div className="navbar bg-base-200 md:border-4 max-w-screen-xl mx-auto  shadow-md ">
 
                 <div className="navbar-start">{/* 左 */}
-                    <Link href={'/'} className="">
+                    <Link href={'/'} className="border-base-content">
                         <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
-                            <Image src="/头像LOGO图.png" alt="头像LOGO图.png" width={40} height={40} className=" rounded-full"/>
+                            <Image src="/头像LOGO图.png" alt="头像LOGO图.png" width={48} height={48} className=" rounded-full " />
                         </motion.div>
                     </Link>
                 </div>
@@ -44,20 +46,23 @@ export default function Header() {
                     <div className="dropdown dropdown-end flex-row flex gap-2">
 
                         <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-                            <div tabIndex={0} className="btn  btn-square btn-sm btn-ghost ">
-                                <ThemeSwap />
-                            </div>
+                                {/*  <ThemeSwap /> */}
+                                <div onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} className="btn  btn-square btn-ghost rounded-full">
+                                    {theme === 'dark' ?
+                                        (<RiSunLine size={24} />)
+                                        : (<RiMoonLine size={24} />)}
+                                </div>
                         </motion.div>
 
                         <div className="drawer">
                             <input id="my-drawer" type="checkbox" className="drawer-toggle " />
                             <div className="drawer-content">
-                                <label htmlFor="my-drawer" className="drawer-overlay drawer-button btn  btn-square btn-sm btn-ghost md:hidden swap swap-flip">
-                              
-                              
-                                            <RiMenuFill className=" w-7 h-7 swap-off" />
-                                            <RiCloseLargeFill className=" w-7 h-7 swap-on" />
-                                   
+                                <label htmlFor="my-drawer" className="drawer-overlay drawer-button md:hidden swap swap-flip  btn  btn-square btn-ghost rounded-full">
+
+
+                                    <RiMenuFill className=" w-7 h-7 swap-off" />
+                                    {/* <RiCloseLargeFill className=" w-7 h-7 swap-on" />
+ */}
                                 </label>
                             </div>
                             <div className="drawer-side">

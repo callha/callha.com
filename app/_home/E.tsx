@@ -1,3 +1,5 @@
+'use client'
+
 export default function E() {
   return (
     <div className=" flex justify-center items-center">

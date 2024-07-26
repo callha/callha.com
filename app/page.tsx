@@ -6,8 +6,8 @@ import B from "./_home/B";
 import C from "./_home/C";
 import D from "./_home/D";
 import E from "./_home/E";
-import { motion } from 'framer-motion';
 import { RiAlertLine } from 'react-icons/ri';
+import MediaLink from './gui/MediaLink';
 
 export default function Home() {
 
@@ -16,33 +16,44 @@ export default function Home() {
 
       <div className=" min-h-[100vh]  relative isolate overflow-hidden" style={{ backgroundImage: 'url(/repeated-square-dark.png)' }}>
         <div className="hero-overlay bg-opacity-60"></div>
+
+
         <div className=" flex justify-center items-center text-center  lg:text-left h-[calc(100vh-69px)] text-neutral-content lg:flex-row flex-col-reverse">
           <div className="max-w-2xl ">
-            <h1 className="mb-16 text-5xl sm:text-7xl font-bold text-white">
-              <a className="text-[#C0E218]">CallHa</a> Labs</h1>
+            <h1 className="mb-8 md:mb-16 text-5xl sm:text-7xl font-bold text-white">
+              <span className="text-[#C0E218]">CallHa</span> Labs</h1>
+            <h1 className="my-4 text-xl sm:text-2xl font-bold text-white">酷哈网络科技工作室</h1>
+            <p className="mb-5 text-white text-xl md:text-2xl">让数据信息可拥有、可信任、有价值</p>
 
-            <p className="mb-5 text-white text-2xl">让数据信息可拥有、可信任、有价值</p>
+            <p className="mb-5 text-white text-xl md:text-2xl">探索创新构建<b className="">理想的Web3</b></p>
 
-            <p className="mb-5 text-white text-2xl">探索创新构建的<b className="">理想Web3</b></p>
+            <p className="mb-5 text-white"></p>
 
-            <p className="mb-5 text-white">Web3发展至今不仅仅是技术，更是一种能延伸到各领域的积极理念</p>
+            <div className='flex flex-col  gap-4 w-full'>
+              <Link role="button" className="btn btn-primary mt-12 hover:text-[#3f1de7] text-2xl font-bold" href={'/products'}>业务范围 →</Link>
+              <Link role="button" className="btn btn-primary btn-outline  text-base-100 hover:text-[#3f1de7] text-2xl font-bold " href={'/contact_us'}>联系我们 →</Link>
+            </div>
 
-            <Link role="button" className="btn btn-primary mt-12 hover:text-[#3f1de7] text-2xl font-bold" href={'/products'}>业务范围 →</Link>
-
-            <Link role="button" className="btn btn-primary btn-outline mt-12 ml-12 text-base-100 hover:text-[#3f1de7] text-2xl font-bold" href={'/contact_us'}>联系我们 →</Link>
           </div>
 
           <img src="/头像大图透明绿色.png" alt="头像大图透明绿色.png" className=' image-full w-60 lg:w-96 m-4 lg:ml-32' />
 
         </div>
-
-        <Absolute />
-
-        <div role="alert" className="alert alert-warning flex justify-center mt-20">
-        <RiAlertLine className="h-6 w-6"/>
-          <span>本站所有内容存在虚构，仅用于测试</span>
+        <div className="flex justify-center text-base-content ">
+          <div className="max-w-screen-xl place-self-end grid grid-flow-col gap-4 text-white">
+            <MediaLink />
+          </div>
         </div>
 
+        <Absolute />
+      </div>
+
+
+      <div className=' flex justify-center'>
+        <div role="alert" className="alert alert-warning max-w-screen-xl">
+          <RiAlertLine className="h-6 w-6" />
+          <span>本站内容为草稿，用于测试</span>
+        </div>
       </div>
 
       <A />
@@ -55,6 +66,10 @@ export default function Home() {
     </main>
   );
 }
+
+
+
+
 
 function Absolute() {
   return (

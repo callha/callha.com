@@ -1,7 +1,9 @@
+'use client'
+
 export default function page() {
     return (
         <div>
-            工作机会
+            加入我们
         </div>
     )
 }

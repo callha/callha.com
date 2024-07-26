@@ -1,3 +1,5 @@
+'use client'
+
 import Link from "next/link"
 
 export default function C() {
@@ -6,7 +8,7 @@ export default function C() {
       <div className="bg-[base-100] py-12">
 
 
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+{/*         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <dl className="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-3">
             {stats.map((stat) => (
               <div key={stat.id} className="mx-auto flex max-w-xs flex-col gap-y-8">
@@ -17,7 +19,7 @@ export default function C() {
               </div>
             ))}
           </dl>
-        </div>
+        </div> */}
 
 
         <div className=" flex justify-center">

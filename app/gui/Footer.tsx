@@ -1,9 +1,6 @@
 'use client'
 import Link from "next/link";
-import { FaSquareXTwitter, FaDiscord, FaGithub, FaTiktok } from "react-icons/fa6";
-import { SiIpfs } from "react-icons/si";
-import { RiNftFill } from "react-icons/ri";
-import { motion } from "framer-motion";
+import MediaLink from "./MediaLink";
 
 export default function Footer() {
     return (
@@ -41,9 +38,6 @@ export default function Footer() {
                 <footer className="footer max-w-screen-xl p-6 lg:p-8  text-base-content">
                     <aside>
                         <img src="favicon.ico" alt="favicon.ico" className="w-12 h-12" />
-                        <p>ICP备案：桂ICP备20240709号-1</p>
-                        <p>联系地址：广西河池</p>
-                        <p>联系电话：123456789</p>
                     </aside>
                     <nav>
                         <h6 className="footer-title">产品</h6>
@@ -64,7 +58,7 @@ export default function Footer() {
                         <h6 className="footer-title">关于</h6>
                         <Link href="/about_us" className="link link-hover">关于我们</Link >
                         <Link href="/contact_us" className="link link-hover">联系我们</Link >
-                        <Link href="/jobs" className="link link-hover">工作机会</Link >
+                        <Link href="/jobs" className="link link-hover">加入我们</Link >
                         <Link href="/blog" className="link link-hover">博客动态</Link >
                     </nav>
                     <nav>
@@ -79,34 +73,12 @@ export default function Footer() {
             </div>
             <div className="flex justify-center border-t bg-base-200 text-base-content border-base-300 ">
                 <footer className="footer  max-w-screen-xl px-6 lg:px-8 py-4">
-                <nav className="place-self-start ">
-                <p>酷哈版权所有 © 2024 CallHa All Rights Reserved</p>
+                    <nav className="place-self-start ">
+                        <p>酷哈版权所有 © 2024 CallHa All Rights Reserved</p>
                     </nav>
                     <nav className="md:place-self-end ">
                         <div className="grid grid-flow-col gap-4">
-                            <motion.div whileHover={{ scale: 1.05 }} >
-                                <Link href="https://x.com/callha" target='_blank'>
-                                    <FaSquareXTwitter className="w-8 h-8" />
-                                </Link >
-                            </motion.div>
-
-                            <motion.div whileHover={{ scale: 1.05 }} >
-                                <Link href="https://discord.com/callha" target='_blank'>
-                                    <FaDiscord className="w-8 h-8" />
-                                </Link >
-                            </motion.div>
-
-                            <motion.div whileHover={{ scale: 1.05 }} >
-                                <Link href="https://github.com/callha" target='_blank'>
-                                    <FaGithub className="w-8 h-8" />
-                                </Link >
-                            </motion.div>
-
-                            <motion.div whileHover={{ scale: 1.05 }} >
-                                <Link href="https://www.douyin.com/user/MS4wLjABAAAAJnJeg10T2H-qWzjz1QpIjUgBtUU2kXi-Y2MM2unaDC2VEzkvliDMqQQN3jZikXBG" target='_blank'>
-                                    <FaTiktok className="w-8 h-8" />
-                                </Link >
-                            </motion.div>
+                            <MediaLink />
                         </div>
                     </nav>
                 </footer>
