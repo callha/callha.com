@@ -12,7 +12,7 @@ export default function Page() {
         const body: any = formData.get('body');
 
         // 构造 mailto 链接
-        const mailtoLink = `mailto:email@callha.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+        const mailtoLink = `mailto:cs@callha.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
         // 打开 mailto 链接
         window.location.href = mailtoLink;
@@ -22,7 +22,7 @@ export default function Page() {
         <div className="flex justify-center items-center">
             <div className=" text-white p-4  w-96 gap-2 flex-col flex max-w-2xl">
                 <h1>联系我们</h1>
-                <h2>email@callha.com</h2>
+                <h2>cs@callha.com</h2>
                 <form onSubmit={handleSubmit} className="">
                     <div className="mb-2">
                         <label className="input input-bordered flex items-center gap-2 ">
