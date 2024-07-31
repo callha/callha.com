@@ -1,6 +1,6 @@
 {
   "name": "callha.com",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "framer-motion": "^11.0.6",
-    "next": "^14.2.3",
+    "next": "^14.2.5",
     "next-themes": "^0.3.0",
     "react": "^18",
     "react-dom": "^18",
