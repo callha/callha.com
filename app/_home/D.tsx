@@ -1,55 +1,65 @@
 'use client'
 import Link from "next/link"
 import { FaGithub, FaGlobe, FaSquareXTwitter } from "react-icons/fa6"
+import { RiApps2Fill } from "react-icons/ri"
 
 const people = [
   {
-    name: ' Qin Jiangban',
-    role: 'Co-Founder / CEO',
+    name: ' Jiangban Qin',
+    role: '联合创始人 / CEO',
     imageUrl: 'https://qinjiangban.site/favicon.ico',
     website: 'https://qinjiangban.site',
     x: 'https://x.com/qinjiangban',
+    github: 'https://github.com/qinjiangban',
     lens: 'https://coinipfs.com/qinjiangban',
   },
   {
     name: 'Michael Foster',
-    role: 'Co-Founder / CTO',
+    role: '联合创始人 / CTO',
     imageUrl: '/logo/LOGO白底图.png',
-    website: 'https://qinjiangban.site',
-    x: 'https://x.com/qinjiangban',
-    lens: 'https://coinipfs.com/qinjiangban',
+    website: '',
+    x: '',
+    lens: '',
   },
   {
     name: 'Dries Vincent',
-    role: 'Business Relations',
+    role: 'Business Relations 业务关系',
     imageUrl: '/logo/LOGO副图.png',
-    website: 'https://qinjiangban.site',
-    x: 'https://x.com/qinjiangban',
-    lens: 'https://coinipfs.com/qinjiangban',
+    website: '',
+    x: '',
+    lens: '',
   },
   {
     name: 'Lindsay Walton',
-    role: 'Front-end Developer',
+    role: 'Front-end Developer 前端开发人员',
     imageUrl: '/logo/LOGO黑底图.png',
-    website: 'https://qinjiangban.site',
-    x: 'https://x.com/qinjiangban',
-    lens: 'https://coinipfs.com/qinjiangban',
-  },
-  {
-    name: 'Courtney Henry',
-    role: 'Designer',
-    imageUrl: '透明LOGO黑色.png',
-    website: 'https://qinjiangban.site',
-    x: 'https://x.com/qinjiangban',
-    lens: 'https://coinipfs.com/qinjiangban',
+    website: '',
+    x: '',
+    lens: '',
   },
   {
     name: 'Leslie Alexander',
-    role: 'Director of Product',
+    role: 'Smart Contract Engineer 智能合约工程师',
     imageUrl: '透明LOGO白色.png',
-    website: 'https://qinjiangban.site',
-    x: 'https://x.com/qinjiangban',
-    lens: 'https://coinipfs.com/qinjiangban',
+    website: '',
+    x: '',
+    lens: '',
+  },
+  {
+    name: 'Courtney Henry',
+    role: 'Designer 设计师',
+    imageUrl: '透明LOGO黑色.png',
+    website: '',
+    x: '',
+    lens: '',
+  },
+  {
+    name: 'Leslie Alexander',
+    role: 'Director of Product 产品总监',
+    imageUrl: '透明LOGO白色.png',
+    website: '',
+    x: '',
+    lens: '',
   },
   // More people...
 ]
@@ -73,14 +83,29 @@ export default function D() {
                   <p className="text-sm font-semibold leading-6 text-[#3f1de7]">{person.role}</p>
 
                   <div className="flex gap-2  ">
-                    <Link href={person.website} className="text-black hover:text-secondary" target='_blank'>  <FaGlobe size={24} />
-                    </Link>
+                    {person.website && (
+                      <Link href={person.website} className="text-black hover:text-secondary" target='_blank'>
+                        <FaGlobe size={24} />
+                      </Link>
+                    )}
 
-                    <Link href={person.x} className="text-black hover:text-secondary" target='_blank'>  <FaSquareXTwitter size={24} />
-                    </Link>
+                    {person.x && (
+                      <Link href={person.x} className="text-black hover:text-secondary" target='_blank'>
+                        <FaSquareXTwitter size={24} />
+                      </Link>
+                    )}
+                    
+                    {person.github && (
+                      <Link href={person.lens} className="text-black hover:text-secondary" target='_blank'>
+                        <FaGithub size={24} />
+                      </Link>
+                    )}
 
-                    <Link href={person.lens} className="text-black hover:text-secondary" target='_blank'>  <FaGithub size={24} />
-                    </Link>
+                    {person.lens && (
+                      <Link href={person.lens} className="text-black hover:text-secondary" target='_blank'>
+                        <RiApps2Fill size={24} />
+                      </Link>
+                    )}
                   </div>
 
                 </div>

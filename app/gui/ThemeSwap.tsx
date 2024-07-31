@@ -16,6 +16,13 @@ export default function ThemeSwap() {
 
                 </label>
             </aside>
+
+
+{/*             <div onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} className="btn  btn-square btn-ghost rounded-full">
+                {theme === 'dark' ?
+                    (<RiSunLine size={24} />)
+                    : (<RiMoonLine size={24} />)}
+            </div> */}
         </>
     )
 }

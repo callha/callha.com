@@ -22,7 +22,7 @@ const config: Config = {
   daisyui: {
     themes: [
       {
-        light: {
+/*         light: {
           ...require("daisyui/src/theming/themes")["light"],
           "primary": "#C0E218",
           "secondary": "#3f1de7",
@@ -45,8 +45,8 @@ const config: Config = {
           "--tab-border": "1px", //选项卡的边框宽度
           "--tab-radius": "0.5rem", //选项卡的边界半径
         },
-
-        dark: {
+ */
+        mytheme: {
           ...require("daisyui/src/theming/themes")["black"],
           "primary": "#C0E218",
           "secondary": "#3f1de7",
@@ -76,7 +76,7 @@ const config: Config = {
     styled: true, // 包括所有组件的daisyUI颜色和设计决策
     utils: true, //添加响应和修饰符实用程序类
     prefix: "", //用于daisyUI类名的前缀（组件、修饰符和响应类名。不是颜色）
-    logs: true, // 在构建CSS时在控制台中显示有关daisyUI版本和使用的配置的信息
+    logs: false, // 在构建CSS时在控制台中显示有关daisyUI版本和使用的配置的信息
     themeRoot: ":root", // 接收主题颜色CSS变量的元素
   },
 };

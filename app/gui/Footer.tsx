@@ -72,17 +72,18 @@ export default function Footer() {
                 </footer>
             </div>
             <div className="flex justify-center border-t bg-base-200 text-base-content border-base-300 ">
-                <footer className="footer  max-w-screen-xl px-6 lg:px-8 py-4">
-                    <nav className="place-self-start ">
+                <div className=" footer max-w-screen-xl px-6 lg:px-8 py-4">
+                    <div className="place-self-start ">
                         <p>酷哈版权所有 © 2024 CallHa All Rights Reserved</p>
-                    </nav>
-                    <nav className="md:place-self-end ">
+                    </div>
+                    <div className="place-self-center md:place-self-end ">
                         <div className="grid grid-flow-col gap-4">
                             <MediaLink />
                         </div>
-                    </nav>
-                </footer>
+                    </div>
+                </div>
             </div >
+
 
         </div >
     )

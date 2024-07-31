@@ -3,12 +3,12 @@
 @tailwind utilities;
 
 :root {
-    --a-hover: #3f1de7;
+    --a-hover: #C0E218;
     --w3m-accent-color: #9dba0d;
 
 }
 
-[data-theme='dark'] {
+[data-theme='mytheme'] {
     --a-hover: #C0E218;
     --w3m-accent-color: var(--a-hover);
 
