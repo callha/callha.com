@@ -36,7 +36,7 @@ export default function Home() {
 
           </div>
 
-          <img src="/头像大图透明绿色.png" alt="头像大图透明绿色.png" className=' image-full w-60 lg:w-96 m-4 lg:ml-32' />
+          <img src="/favicon.ico" alt="favicon.ico" className=' image-full w-60 lg:w-96 m-4 lg:ml-32' />
 
         </div>
         <div className="flex justify-center text-base-content ">

@@ -28,7 +28,7 @@ const features = [
 
 export default function Example() {
   return (
-    <div className="bg-[base-100] py-24 sm:py-32 ">
+    <div id="about_us" className="bg-[base-100] py-24 sm:py-32 ">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
 
 
@@ -40,13 +40,13 @@ export default function Example() {
             我们来自用户，既是构建者，也是拥有者
           </p>
           <p className="mt-6 text-lg leading-8 text-[#6a6a6a]">
-            CallHa Labs / 酷哈网络科技工作室注册主体在中国，遵守当地法律制度及不同地区的法律制度
+            CallHa / 酷哈网络科技工作室注册主体在中国，遵守当地法律制度及不同地区的法律制度
             <br />
             由世界各地不同地区的人组建的公共组织，产品和服务由 CallHa Labs 引领，社区共同参与治理
             <br />
-            希望探索出符合社会主义和向共产主义前进的技术和理论，为世界文明进步做贡献
+            希望探索出向共产主义前进的技术，为世界文明进步做贡献
             <br />
-            我们相信Web3和区块链发展至今不仅仅是技术和互联网进步，更是一种能延伸到各领域的积极理念
+            相信Web3和区块链发展至今不仅仅是技术和互联网进步，更是一种能延伸到各领域的积极理念
             <br />
           </p>
         </div>

@@ -37,7 +37,7 @@ export default function Footer() {
             <div className="flex justify-center ">
                 <footer className="footer max-w-screen-xl p-6 lg:p-8  text-base-content">
                     <aside>
-                        <img src="favicon.ico" alt="favicon.ico" className="w-12 h-12" />
+                        <img src="/logoimg/Callha透明绿字.png" alt="/logoimg/Callha透明绿字.png" className="w-full h-16" />
                     </aside>
                     <nav>
                         <h6 className="footer-title">产品</h6>
@@ -56,7 +56,7 @@ export default function Footer() {
                     </nav>
                     <nav>
                         <h6 className="footer-title">关于</h6>
-                        <Link href="/about_us" className="link link-hover">关于我们</Link >
+                        <Link href="#about_us" className="link link-hover">关于我们</Link >
                         <Link href="/contact_us" className="link link-hover">联系我们</Link >
                         <Link href="/jobs" className="link link-hover">加入我们</Link >
                         <Link href="/blog" className="link link-hover">博客动态</Link >

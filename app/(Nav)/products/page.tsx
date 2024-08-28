@@ -26,7 +26,7 @@ export default function Products() {
           <div id='Qiancset' className="card card-compact bg-base-100 shadow-xl border h-auto mt-4">
             <figure><img src='/img/coinipfs.png' alt='HaYi' className=" w-80 md:w-full h-auto md:h-96" /></figure>
             <div className="card-body border-t">
-              <h2 className="card-title">Qiancset</h2>
+              <h2 className="card-title">Hayi</h2>
               <p>基于Lens协议开发的去中心化社交应用 (开发中...)</p>
               <div className="card-actions justify-end">
                 <Link href='https://coinipfs.com' className="btn btn-primary hover:text-secondary text-lg" target='_blank'>前往↗</Link>

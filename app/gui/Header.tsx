@@ -16,7 +16,7 @@ export default function Header() {
                 <div className="navbar-start">{/* 左 */}
                     <Link href={'/'} className="border-base-content">
                         <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
-                            <Image src="/头像LOGO图.png" alt="头像LOGO图.png" width={48} height={48} className=" rounded-full " />
+                            <Image src="/logo/头像LOGO图.png" alt="头像LOGO图.png" width={48} height={48} className=" rounded-full " />
                         </motion.div>
                     </Link>
                 </div>

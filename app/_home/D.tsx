@@ -12,7 +12,7 @@ const people = [
     x: 'https://x.com/qinjiangban',
     github: 'https://github.com/qinjiangban',
     lens: 'https://coinipfs.com/qinjiangban',
-  },
+  }/* ,
   {
     name: 'Michael Foster',
     role: '联合创始人 / CTO',
@@ -60,8 +60,7 @@ const people = [
     website: '',
     x: '',
     lens: '',
-  },
-  // More people...
+  }, */
 ]
 export default function D() {
   return (
@@ -85,7 +84,7 @@ export default function D() {
                   <div className="flex gap-2  ">
                     {person.website && (
                       <Link href={person.website} className="text-black hover:text-secondary" target='_blank'>
-                        <FaGlobe size={24} />
+                        <FaGlobe size={22} />
                       </Link>
                     )}
 
@@ -103,7 +102,7 @@ export default function D() {
 
                     {person.lens && (
                       <Link href={person.lens} className="text-black hover:text-secondary" target='_blank'>
-                        <RiApps2Fill size={24} />
+                         <img src="/logo/透明LOGO黑色.png" className="" width={24} height={24} alt="/logo/透明LOGO黑色.png" />
                       </Link>
                     )}
                   </div>
