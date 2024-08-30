@@ -65,7 +65,6 @@ export default function Footer() {
                         <h6 className="footer-title">法律</h6>
                         <Link href="/terms_of_use" className="link link-hover">使用条款</Link >
                         <Link href="/privacy_policy" className="link link-hover">隐私策略</Link >
-                        <Link href="/cookie_policy" className="link link-hover">Cookie政策</Link >
                         <Link href="/ipr" className="link link-hover">知识产权</Link >
                         <Link href="/br" className="link link-hover">品牌资产</Link >
 

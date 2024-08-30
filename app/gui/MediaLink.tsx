@@ -17,7 +17,7 @@ export default function MediaLink() {
   };
   return (
     <>
-      <motion.div 
+{/*       <motion.div 
         onTouchStart={handleHover}
         onTouchEnd={handleMouseOut}
         onMouseOver={handleHover}
@@ -28,7 +28,7 @@ export default function MediaLink() {
         <b  className=" hover:text-info tooltip" data-tip='公众号:酷哈网络科技'>
           <RiWechatFill className="w-8 h-8" />
         </b>
-      </motion.div>
+      </motion.div> */}
 
       <motion.div whileHover={{ scale: 1.2 }} >
         <Link href="https://www.douyin.com/user/MS4wLjABAAAAJnJeg10T2H-qWzjz1QpIjUgBtUU2kXi-Y2MM2unaDC2VEzkvliDMqQQN3jZikXBG" target='_blank' /* className="tooltip" data-tip="www.douyin.com/user/callha" */>

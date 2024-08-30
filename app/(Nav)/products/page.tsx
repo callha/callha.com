@@ -27,7 +27,7 @@ export default function Products() {
             <figure><img src='/img/coinipfs.png' alt='HaYi' className=" w-80 md:w-full h-auto md:h-96" /></figure>
             <div className="card-body border-t">
               <h2 className="card-title">Hayi</h2>
-              <p>基于Lens协议开发的去中心化社交应用(开发中...仅测试用)</p>
+              <p>基于Lens协议开发的去中心化社交应用 (开发中...仅测试用)</p>
               <div className="card-actions justify-end">
                 <Link href='https://coinipfs.com' className="btn btn-primary hover:text-secondary text-lg" target='_blank'>前往↗</Link>
               </div>
@@ -65,7 +65,7 @@ function Cord({ src, name, text, href }: any) {
         <h2 className="card-title">{name}</h2>
         <p>{text}</p>
         <div className="card-actions justify-end">
-          <Link href='/contact_us' className="btn btn-primary hover:text-secondary text-lg" target='_blank'>联系↗</Link>
+          <Link href='/contact_us' className="btn btn-primary hover:text-secondary text-lg" >联系</Link>
         </div>
       </div>
     </div>

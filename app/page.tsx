@@ -1,4 +1,4 @@
-'use client'
+
 import Link from 'next/link';
 import Image from "next/image";
 import A from "./_home/A";
@@ -21,7 +21,7 @@ export default function Home() {
         <div className=" flex justify-center items-center text-center  lg:text-left h-[calc(100vh-69px)] text-neutral-content lg:flex-row flex-col-reverse">
           <div className="max-w-2xl ">
             <h1 className="mb-8 md:mb-16 text-5xl sm:text-7xl font-bold text-white">
-              <span className="text-[#C0E218]">CallHa</span></h1>
+              <span className="text-[#C0E218]">CallHa </span>酷哈</h1>
             <h1 className="my-4 text-xl sm:text-2xl font-bold text-white">酷哈网络科技工作室</h1>
             <p className="mb-5 text-white text-xl md:text-2xl">让数据信息可拥有、可信任、有价值</p>
 

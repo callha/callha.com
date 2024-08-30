@@ -12,8 +12,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: {   
-    default: `酷哈网络科技`,
-    template: `%s |  酷哈网络科技`
+    default: `Callha 酷哈`,
+    template: `%s | Callha 酷哈`
   },
  
   description: "CallHa,酷哈网络科技工作室,区块链,Web3,市场营销策划,NFT品牌营销,让数据信息可拥有、可信任、有价值,Dapp开发,网站开发,去中心化应用开发,智能合约开发,酷哈,callha,酷哈web3",
