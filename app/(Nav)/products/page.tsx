@@ -15,9 +15,9 @@ export default function Products() {
             <figure><img src='/img/qiancset.png' alt='Qiancset' className=" w-80 md:w-full h-auto md:h-96" /></figure>
             <div className="card-body border-t">
               <h2 className="card-title">Qiancset</h2>
-              <p>去中心化的房屋租赁服务应用 (域名过期...)</p>
+              <p>去中心化的房屋租赁服务应用 (域名过期)</p>
               <div className="card-actions justify-end">
-                <Link href='https://qiancset.com' className="btn btn-primary hover:text-secondary text-lg" target='_blank'>前往↗</Link>
+                <Link href='/products#Qiancset' className="btn btn-primary btn-disabled hover:text-secondary text-lg" target='_blank'>敬请期待</Link>
               </div>
             </div>
           </div>
@@ -27,7 +27,7 @@ export default function Products() {
             <figure><img src='/img/coinipfs.png' alt='HaYi' className=" w-80 md:w-full h-auto md:h-96" /></figure>
             <div className="card-body border-t">
               <h2 className="card-title">Hayi</h2>
-              <p>基于Lens协议开发的去中心化社交应用 (开发中...)</p>
+              <p>基于Lens协议开发的去中心化社交应用(开发中...仅测试用)</p>
               <div className="card-actions justify-end">
                 <Link href='https://coinipfs.com' className="btn btn-primary hover:text-secondary text-lg" target='_blank'>前往↗</Link>
               </div>

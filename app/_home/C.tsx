@@ -40,9 +40,9 @@ export default function Example() {
             我们来自用户，既是构建者，也是拥有者
           </p>
           <p className="mt-6 text-lg leading-8 text-[#6a6a6a]">
-            CallHa / 酷哈网络科技工作室注册主体在中国，遵守当地法律制度及不同地区的法律制度
+            Callha / 酷哈网络科技工作室注册主体在中国，遵守当地法律制度及不同地区的法律制度
             <br />
-            由世界各地不同地区的人组建的公共组织，产品和服务由 CallHa Labs 引领，社区共同参与治理
+            产品和服务由 Callha 引领，社区共同参与治理
             <br />
             希望探索出向共产主义前进的技术，为世界文明进步做贡献
             <br />

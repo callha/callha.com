@@ -42,7 +42,7 @@ export default function Footer() {
                     <nav>
                         <h6 className="footer-title">产品</h6>
                         <Link href="https://coinipfs.com" className="link link-hover" target='_blank'>Dapp↗</Link >
-                        <Link href="/" className="link link-hover" target='_blank'>NFT↗</Link >
+                        <Link href="" className="link link-hover" target='_blank'>NFT↗</Link >
                     </nav>
                     <nav>
                         <h6 className="footer-title">业务</h6>
@@ -67,6 +67,7 @@ export default function Footer() {
                         <Link href="/privacy_policy" className="link link-hover">隐私策略</Link >
                         <Link href="/cookie_policy" className="link link-hover">Cookie政策</Link >
                         <Link href="/ipr" className="link link-hover">知识产权</Link >
+                        <Link href="/br" className="link link-hover">品牌资产</Link >
 
                     </nav>
                 </footer>
@@ -74,7 +75,9 @@ export default function Footer() {
             <div className="flex justify-center border-t bg-base-200 text-base-content border-base-300 ">
                 <div className=" footer max-w-screen-xl px-6 lg:px-8 py-4">
                     <div className="place-self-start ">
-                        <p>酷哈版权所有 © 2024 CallHa All Rights Reserved</p>
+                        <p>酷哈网络科技工作室版权所有 © 2024 Callha All Rights Reserved</p>
+{/*                         <a href="https://beian.miit.gov.cn/" className="link link-hover" target='_blank'>桂ICP备*********号-**</a>
+                        <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=**********" className="link link-hover" target='_blank'>桂公安备********号</a> */}
                     </div>
                     <div className="place-self-center md:place-self-end ">
                         <div className="grid grid-flow-col gap-4">
