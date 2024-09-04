@@ -48,6 +48,7 @@ export default function Products() {
           <Cord src='/img/6设计.png' name='设计' text='logo标志、广告图、海报图、插画图、产品外包装、名片、贺卡、邀请函等，数字产品UX/UI设计' />
 
           <Cord src='/img/7开发.png' name='开发' text='DAPP、前端网站、EVM智能合约solidify、UI/UX设计、产品架构。' />
+          <Cord src='/img/8电商.jpg' name='电商' text='兴趣电商，购买你喜欢的商品' />
         </div>
 
       </div>

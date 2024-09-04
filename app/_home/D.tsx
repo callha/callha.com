@@ -10,8 +10,7 @@ const people = [
     imageUrl: 'https://qinjiangban.site/favicon.ico',
     website: 'https://qinjiangban.site',
     x: 'https://x.com/qinjiangban',
-    github: 'https://github.com/qinjiangban',
-    lens: 'https://coinipfs.com/qinjiangban',
+    lens: 'https://share.lens.xyz/u/lens/qinjiangban',
   }/* ,
   {
     name: 'Michael Foster',
@@ -93,16 +92,10 @@ export default function D() {
                         <FaSquareXTwitter size={24} />
                       </Link>
                     )}
-                    
-                    {person.github && (
-                      <Link href={person.lens} className="text-black hover:text-secondary" target='_blank'>
-                        <FaGithub size={24} />
-                      </Link>
-                    )}
 
                     {person.lens && (
                       <Link href={person.lens} className="text-black hover:text-secondary" target='_blank'>
-                         <img src="/logo/透明LOGO黑色.png" className="" width={24} height={24} alt="/logo/透明LOGO黑色.png" />
+                        <img src="/Icon-T-Black_@2x.png" alt="/Icon-T-Black_@2x.png" className="" width={24} height={24} />
                       </Link>
                     )}
                   </div>

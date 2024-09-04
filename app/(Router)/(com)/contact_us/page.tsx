@@ -1,6 +1,5 @@
 'use client'
 
-import MediaLink from "@/app/gui/MediaLink";
 
 export default function Page() {
     const handleSubmit = (e) => {

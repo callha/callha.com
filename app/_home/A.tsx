@@ -37,6 +37,10 @@ const people = [
   {
     href: '/products/#开发',
     title: '开发',
+  },
+  {
+    href:'/products/#电商',
+    title:'电商'
   }
 ]
 

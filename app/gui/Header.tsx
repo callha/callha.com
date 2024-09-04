@@ -10,8 +10,8 @@ export default function Header() {
     const pathname = usePathname();
     const { theme, setTheme } = useTheme();
     return (
-        <div className="Navbar_Header justify-around  z-50  flex  fixed top-0 left-0 right-0 transition-transform duration-300">
-            <div className="navbar bg-base-200 md:border-4 max-w-screen-xl mx-auto  shadow-md ">
+        <div className="bg- justify-around  z-50  flex  fixed top-0 left-0 right-0 transition-transform duration-300">
+            <div className="navbar bg-base-200  max-w-screen-xl mx-auto  shadow-md ">
 
                 <div className="navbar-start">{/* 左 */}
                     <Link href={'/'} className="border-base-content">

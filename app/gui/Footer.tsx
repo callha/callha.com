@@ -39,13 +39,14 @@ export default function Footer() {
                     <aside>
                         <img src="/logoimg/Callha透明绿字.png" alt="/logoimg/Callha透明绿字.png" className="w-full h-16" />
                     </aside>
+
                     <nav>
                         <h6 className="footer-title">产品</h6>
                         <Link href="https://coinipfs.com" className="link link-hover" target='_blank'>Dapp↗</Link >
                         <Link href="" className="link link-hover" target='_blank'>NFT↗</Link >
                     </nav>
                     <nav>
-                        <h6 className="footer-title">业务</h6>
+                        <h6 className="footer-title">服务</h6>
                         <Link href="/products/#教培" className="link link-hover">教学培训</Link >
                         <Link href="/products/#咨询" className="link link-hover">信息咨询</Link >
                         <Link href="/products/#市场" className="link link-hover">市场研究</Link >
@@ -53,6 +54,7 @@ export default function Footer() {
                         <Link href="/products/#策划" className="link link-hover">策划方案</Link >
                         <Link href="/products/#设计" className="link link-hover">设计创意</Link >
                         <Link href="/products/#开发" className="link link-hover">开发软件</Link >
+                        <Link href="/products/#电商" className="link link-hover">抖音电商</Link >
                     </nav>
                     <nav>
                         <h6 className="footer-title">关于</h6>
@@ -63,22 +65,37 @@ export default function Footer() {
                     </nav>
                     <nav>
                         <h6 className="footer-title">法律</h6>
+                        <Link href="/cookie_policy" className="link link-hover">Cookie策略</Link >
                         <Link href="/terms_of_use" className="link link-hover">使用条款</Link >
                         <Link href="/privacy_policy" className="link link-hover">隐私策略</Link >
                         <Link href="/ipr" className="link link-hover">知识产权</Link >
                         <Link href="/br" className="link link-hover">品牌资产</Link >
-
                     </nav>
+                    <form>
+                        <h6 className="footer-title">联系</h6>
+                        <fieldset className="form-control w-80">
+                            <label className="label">
+                                <span className="label-text">输入您的电子邮箱</span>
+                            </label>
+                            <div className="join">
+                                <input
+                                    type="text"
+                                    placeholder="cs@callha.com"
+                                    className="input input-bordered join-item" />
+                                <button className="btn btn-primary join-item">订阅</button>
+                            </div>
+                        </fieldset>
+                    </form>
                 </footer>
             </div>
             <div className="flex justify-center border-t bg-base-200 text-base-content border-base-300 ">
                 <div className=" footer max-w-screen-xl px-6 lg:px-8 py-4">
                     <div className="place-self-start ">
-                        <p>酷哈网络科技工作室版权所有 © 2024 Callha All Rights Reserved</p>
-{/*                         <a href="https://beian.miit.gov.cn/" className="link link-hover" target='_blank'>桂ICP备*********号-**</a>
+                        <p className="flex flex-col md:flex-row">酷哈网络科技工作室版权所有 <span> © 2024 Callha All Rights Reserved</span></p>
+                        {/*                         <a href="https://beian.miit.gov.cn/" className="link link-hover" target='_blank'>桂ICP备*********号-**</a>
                         <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=**********" className="link link-hover" target='_blank'>桂公安备********号</a> */}
                     </div>
-                    <div className="place-self-center md:place-self-end ">
+                    <div className="place-self-start md:place-self-end ">
                         <div className="grid grid-flow-col gap-4">
                             <MediaLink />
                         </div>
