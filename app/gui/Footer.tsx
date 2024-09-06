@@ -42,8 +42,8 @@ export default function Footer() {
 
                     <nav>
                         <h6 className="footer-title">产品</h6>
-                        <Link href="https://coinipfs.com" className="link link-hover" target='_blank'>Dapp↗</Link >
-                        <Link href="" className="link link-hover" target='_blank'>NFT↗</Link >
+                        <Link href="https://coinipfs.com" className="link link-hover" target='_blank'>Hayi↗</Link >
+                        <Link href="" className="link link-hover" target='_blank'>mintNFT↗</Link >
                     </nav>
                     <nav>
                         <h6 className="footer-title">服务</h6>

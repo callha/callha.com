@@ -11,6 +11,17 @@ export default function Products() {
         <h1 className="text-xl font-semibold leading-7 text-info text-center">产品</h1>
         <div className=" flex justify-evenly items-center sm:flex-row flex-col px-8">
 
+        <div id='Qiancset' className="card card-compact bg-base-100 shadow-xl border h-auto mt-4">
+            <figure><img src='/img/coinipfs.png' alt='HaYi' className=" w-80 md:w-full h-auto md:h-96" /></figure>
+            <div className="card-body border-t">
+              <h2 className="card-title">Hayi</h2>
+              <p>基于Lens协议开发的去中心化社交应用 (开发中...仅测试用)</p>
+              <div className="card-actions justify-end">
+                <Link href='https://coinipfs.com' className="btn btn-primary hover:text-secondary text-lg" target='_blank'>前往↗</Link>
+              </div>
+            </div>
+          </div>
+          
           <div id='Qiancset' className="card card-compact bg-base-100 shadow-xl border h-auto mt-4">
             <figure><img src='/img/qiancset.png' alt='Qiancset' className=" w-80 md:w-full h-auto md:h-96" /></figure>
             <div className="card-body border-t">
@@ -23,16 +34,6 @@ export default function Products() {
           </div>
 
 
-          <div id='Qiancset' className="card card-compact bg-base-100 shadow-xl border h-auto mt-4">
-            <figure><img src='/img/coinipfs.png' alt='HaYi' className=" w-80 md:w-full h-auto md:h-96" /></figure>
-            <div className="card-body border-t">
-              <h2 className="card-title">Hayi</h2>
-              <p>基于Lens协议开发的去中心化社交应用 (开发中...仅测试用)</p>
-              <div className="card-actions justify-end">
-                <Link href='https://coinipfs.com' className="btn btn-primary hover:text-secondary text-lg" target='_blank'>前往↗</Link>
-              </div>
-            </div>
-          </div>
 
         </div>
 
