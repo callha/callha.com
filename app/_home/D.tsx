@@ -66,9 +66,9 @@ export default function D() {
     <div className="bg-[#3f1de7] py-24 sm:py-32">
       <div className="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
         <div className="max-w-2xl bg-[#C0E218] p-2 rounded-lg">
-          <h2 className="text-3xl font-bold tracking-tight  sm:text-4xl text-[#000]">认识我们团队</h2>
+          <h2 className="text-3xl font-bold tracking-tight  sm:text-4xl text-[#000]">认识我们</h2>
           <p className="mt-6 text-lg leading-8 text-[#000]">
-            出色的团队，需要人才
+            一起构建Web3
           </p>
         </div>
         <ul role="list" className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
