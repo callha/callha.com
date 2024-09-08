@@ -4,7 +4,7 @@ import Link from "next/link"
 
 export default function Products() {
   return (
-    <div className="py-12">
+    <div className="py-12 ">
       <div className="mx-auto max-w-7xl lg:px-8  ">
 
 

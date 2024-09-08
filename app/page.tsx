@@ -36,14 +36,10 @@ export default function Home() {
 
           </div>
 
-          <img src="/favicon.ico" alt="favicon.ico" className=' image-full w-60 lg:w-96 m-4 lg:ml-32' />
+          <img src="/logo/透明LOGO绿色.png" alt="/logo/透明LOGO绿色.png" className=' image-full w-60 lg:w-96 m-4 lg:ml-32' />
 
         </div>
-        <div className="flex justify-center text-base-content ">
-          <div className="max-w-screen-xl place-self-end grid grid-flow-col gap-4 text-white">
-            <MediaLink />
-          </div>
-        </div>
+
 
         <Absolute />
       </div>

@@ -22,10 +22,6 @@ export default function C() {
         </div> */}
 
 
-        <div className=" flex justify-center">
-          <Link href='/case' className="btn btn-primary  btn-active hover:text-secondary my-2  text-xl">案例 →</Link>
-        </div>
-
 
       </div>
     </div>

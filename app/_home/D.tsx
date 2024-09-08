@@ -66,7 +66,7 @@ export default function D() {
     <div className="bg-[#3f1de7] py-24 sm:py-32">
       <div className="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
         <div className="max-w-2xl bg-[#C0E218] p-2 rounded-lg">
-          <h2 className="text-3xl font-bold tracking-tight  sm:text-4xl text-[#000]">认识我们</h2>
+          <h2 className="text-3xl font-bold tracking-tight  sm:text-4xl text-[#000]">认识我们的成员</h2>
           <p className="mt-6 text-lg leading-8 text-[#000]">
             一起构建Web3
           </p>
@@ -83,7 +83,7 @@ export default function D() {
                   <div className="flex gap-2  ">
                     {person.website && (
                       <Link href={person.website} className="text-black hover:text-secondary" target='_blank'>
-                        <FaGlobe size={22} />
+                        <FaGlobe size={24} />
                       </Link>
                     )}
 
@@ -95,7 +95,7 @@ export default function D() {
 
                     {person.lens && (
                       <Link href={person.lens} className="text-black hover:text-secondary" target='_blank'>
-                        <img src="/Icon-T-Black_@2x.png" alt="/Icon-T-Black_@2x.png" className="" width={24} height={24} />
+                        <img src="/Icon-T-Black_@2x.png" alt="/Icon-T-Black_@2x.png" className=" hover:bg-success" width={24} height={24} />
                       </Link>
                     )}
                   </div>

@@ -53,9 +53,6 @@ export default function Example() {
 
         <h1 className="text-xl font-semibold leading-7 text-info">产品服务</h1>
 
-        <div className="mx-auto mt-16 max-w-2xl sm:mt-12 md:max-w-2xl">
-          Web3服务体系
-        </div>
 
         <div className="mx-auto mt-16 max-w-2xl sm:mt-12 md:max-w-2xl">
           <dl className="grid max-w-xl grid-cols-1 gap-x-5 gap-y-5 md:max-w-none md:grid-cols-2">

@@ -71,28 +71,13 @@ export default function Footer() {
                         <Link href="/ipr" className="link link-hover">知识产权</Link >
                         <Link href="/br" className="link link-hover">品牌资产</Link >
                     </nav>
-                    <form>
-                        <h6 className="footer-title">联系</h6>
-                        <fieldset className="form-control w-80">
-                            <label className="label">
-                                <span className="label-text">输入您的电子邮箱</span>
-                            </label>
-                            <div className="join">
-                                <input
-                                    type="text"
-                                    placeholder="cs@callha.com"
-                                    className="input input-bordered join-item" />
-                                <button className="btn btn-primary join-item">订阅</button>
-                            </div>
-                        </fieldset>
-                    </form>
                 </footer>
             </div>
             <div className="flex justify-center border-t bg-base-200 text-base-content border-base-300 ">
                 <div className=" footer max-w-screen-xl px-6 lg:px-8 py-4">
-                    <div className="place-self-start ">
-                        <p className="flex flex-col md:flex-row">酷哈网络科技工作室版权所有 <span> © 2024 Callha All Rights Reserved</span></p>
-                        {/*                         <a href="https://beian.miit.gov.cn/" className="link link-hover" target='_blank'>桂ICP备*********号-**</a>
+                    <div className="place-self-start text-gray-400">
+                        <p className="flex flex-col md:flex-row">都安酷哈网络科技工作室版权所有 <span> © 2024 Callha All Rights Reserved</span></p>
+{/*                         <a href="https://beian.miit.gov.cn/" className="link link-hover" target='_blank'>桂ICP备*********号-**</a>
                         <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=**********" className="link link-hover" target='_blank'>桂公安备********号</a> */}
                     </div>
                     <div className="place-self-start md:place-self-end ">
