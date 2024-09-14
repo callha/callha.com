@@ -77,8 +77,8 @@ export default function Footer() {
                 <div className=" footer max-w-screen-xl px-6 lg:px-8 py-4">
                     <div className="place-self-start text-gray-400">
                         <p className="flex flex-col md:flex-row">都安酷哈网络科技工作室版权所有 <span> © 2024 Callha All Rights Reserved</span></p>
-{/*                         <a href="https://beian.miit.gov.cn/" className="link link-hover" target='_blank'>桂ICP备*********号-**</a>
-                        <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=**********" className="link link-hover" target='_blank'>桂公安备********号</a> */}
+                        <a href="https://beian.miit.gov.cn/" className="link link-hover" target='_blank'>桂ICP备2024042442号-1</a>
+                        {/* <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=**********" className="link link-hover" target='_blank'>桂公安备********号</a> */}
                     </div>
                     <div className="place-self-start md:place-self-end ">
                         <div className="grid grid-flow-col gap-4">
