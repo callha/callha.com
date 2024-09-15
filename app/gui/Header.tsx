@@ -27,6 +27,7 @@ export default function Header() {
                         <li><LinkNavbar href='/' Name='首页' /></li>
                         <li><LinkNavbar href='/products' Name='业务' /></li>
                         <li><LinkNavbar href='/blog' Name='博客' /></li>
+                        <li><LinkNavbar href='/about' Name='关于' /></li>
                         {/*                         <li>
                             <details className=" font-bold text-xl">
                                 <summary>关于</summary>
@@ -59,6 +60,7 @@ export default function Header() {
                                 <li><LinkNavbar href='/' Name='首页' /></li>
                                 <li><LinkNavbar href='/products' Name='业务' /></li>
                                 <li><LinkNavbar href='/blog' Name='博客' /></li>
+                                <li><LinkNavbar href='/about' Name='关于' /></li>
                             </ul>
                         </div>
 
@@ -76,7 +78,7 @@ export default function Header() {
 function LinkNavbar({ href, Name }: any) {
     const pathname = usePathname();
     return (
-        <Link href={href} className={`header_link font-bold text-xl ${pathname === `${href}` ? "active" : ""
+        <Link href={href} className={`header_link font-bold text-2xl ${pathname === `${href}` ? "active" : ""
             }`}>
             {Name}
         </Link>

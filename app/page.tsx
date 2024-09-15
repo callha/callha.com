@@ -31,7 +31,7 @@ export default function Home() {
 
             <div className='flex flex-col  gap-4 w-full'>
               <Link role="button" className="btn btn-primary mt-12 hover:text-[#3f1de7] text-2xl font-bold" href={'/products'}>业务范围 →</Link>
-              <Link role="button" className="btn btn-primary btn-outline  text-base-100 hover:text-[#3f1de7] text-2xl font-bold " href={'/contact_us'}>联系我们 →</Link>
+              <Link role="button" className="btn btn-primary btn-outline  text-base-100 hover:text-[#3f1de7] text-2xl font-bold " href={'https://callhanet.feishu.cn/share/base/form/shrcnKgHyUU905ToaA3BzzW5ZMd'} target='_blank'>联系我们 →</Link>
             </div>
 
           </div>

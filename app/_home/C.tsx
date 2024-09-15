@@ -6,22 +6,22 @@ import { RiAlertLine } from "react-icons/ri";
 const features = [
   {
     name: '使命',
-    description:'让数据信息可拥有、可信任、有价值',
+    description: '让数据信息可拥有、可信任、有价值',
     icon: FaBtc,
   },
   {
     name: '愿景',
-    description:'为推动互联网进步和世界文明进步，创造激动人心的产品服务，让世界更信任',
+    description: '为推动互联网进步和世界文明进步，创造激动人心的产品服务，让世界变得更好',
     icon: FaEthereum,
   },
   {
     name: '价值观',
-    description:'秉持开放、自由、平等、创新、包容的理念，始终以用户为核心，不希望利益化和过度金融化，所有权益公平',
+    description: '始终以用户为核心，不希望利益化和过度金融化，所有权益公平',
     icon: FaCommentsDollar,
   },
   {
     name: '技术创新',
-    description:'致力于不断探索和应用前沿技术,提供更好的Web3产品和服务解决方案。',
+    description: '致力于不断探索和应用前沿技术,提供更好的Web3产品和服务解决方案。',
     icon: FaDonate,
   },
 ]
@@ -40,11 +40,9 @@ export default function Example() {
             我们来自用户，既是构建者，也是拥有者
           </p>
           <p className="mt-6 text-lg leading-8 text-[#6a6a6a]">
-            Callha / 酷哈网络科技工作室注册主体在中国，遵守当地法律制度及不同地区的法律制度
+            Callha / 酷哈网络科技工作室注册主体在中国，遵守当地法律制度及不同地区的法律制度，为探索web3行业合规性
             <br />
-            产品和服务由 Callha 引领，社区共同参与治理
-            <br />
-            希望探索出向共产主义前进的技术，通过技术改变生产关系，为世界文明进步做贡献
+            希望探索出向共产主义前进的技术，通过技术改变生产关系，为世界文明进步做贡献,让世界变得更好
             <br />
             相信Web3和区块链发展至今不仅仅是技术和互联网进步，更是一种能延伸到各领域的积极理念
             <br />
