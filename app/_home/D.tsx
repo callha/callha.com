@@ -6,12 +6,13 @@ import { RiApps2Fill } from "react-icons/ri"
 const people = [
   {
     name: ' Jiangban Qin',
-    role: '联合创始人 / CEO',
+    role: '创始人',
     imageUrl: 'https://qinjiangban.site/favicon.ico',
     website: 'https://qinjiangban.site',
     x: 'https://x.com/qinjiangban',
     lens: 'https://share.lens.xyz/u/lens/qinjiangban',
-  }/* ,
+  }
+  /* ,
   {
     name: 'Michael Foster',
     role: '联合创始人 / CTO',

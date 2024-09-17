@@ -45,12 +45,7 @@ export default function Home() {
       </div>
 
 
-{/*       <div className=' flex justify-center'>
-        <div role="alert" className="alert alert-warning max-w-screen-xl">
-          <RiAlertLine className="h-6 w-6" />
-          <span>本站内容为草稿，用于测试</span>
-        </div>
-      </div> */}
+
 
       <A />
       <B />
