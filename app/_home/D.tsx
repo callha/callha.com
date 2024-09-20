@@ -1,8 +1,8 @@
 'use client'
+import Image from "next/image"
 import Link from "next/link"
-import { FaGithub, FaGlobe, FaSquareXTwitter } from "react-icons/fa6"
+import { FaGithub, FaGlobe, FaSquareXTwitter,FaLink, FaXTwitter } from "react-icons/fa6"
 import { RiApps2Fill } from "react-icons/ri"
-
 const people = [
   {
     name: ' Jiangban Qin',
@@ -64,7 +64,7 @@ const people = [
 ]
 export default function D() {
   return (
-    <div className="bg-[#3f1de7] py-24 sm:py-32">
+    <div className=" py-24 sm:py-32">
       <div className="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
         <div className="max-w-2xl bg-[#C0E218] p-2 rounded-lg">
           <h2 className="text-3xl font-bold tracking-tight  sm:text-4xl text-[#000]">认识我们的成员</h2>
@@ -83,20 +83,25 @@ export default function D() {
 
                   <div className="flex gap-2  ">
                     {person.website && (
-                      <Link href={person.website} className="text-black hover:text-secondary" target='_blank'>
-                        <FaGlobe size={24} />
+                      <Link href={person.website} className="text-black hover:text-black hover:bg-white" target='_blank'>
+                        <FaLink  size={24} />
                       </Link>
                     )}
 
                     {person.x && (
-                      <Link href={person.x} className="text-black hover:text-secondary" target='_blank'>
-                        <FaSquareXTwitter size={24} />
+                      <Link href={person.x} className="text-black hover:text-black hover:bg-white" target='_blank'>
+                        <FaXTwitter  size={24} />
                       </Link>
                     )}
 
                     {person.lens && (
-                      <Link href={person.lens} className="text-black hover:text-secondary" target='_blank'>
-                        <img src="/Icon-T-Black_@2x.png" alt="/Icon-T-Black_@2x.png" className=" hover:bg-success" width={24} height={24} />
+                      <Link href={person.lens} className="text-black hover:text-black hover:bg-white" target='_blank'>
+                        <Image
+                          src="/Icon-T-Black_@2x.png"
+                          alt="Lens-Black"
+                          className={` hover:bg-white`}
+                          width={24} height={24}
+                        />
                       </Link>
                     )}
                   </div>
@@ -108,5 +113,25 @@ export default function D() {
         </ul>
       </div>
     </div>
+  )
+}
+const ThemeImage = (props) => {
+  const { srcLight, srcDark, ...rest } = props
+
+  return (
+    <>
+      <Image {...rest}
+        src="/Icon-T-Black_@2x.png"
+        alt="Lens-Black"
+        className={`flex dark:hidden hover:bg-primary rounded-lg`}
+        width={24} height={24}
+      />
+      <Image {...rest}
+        src="/Icon-T-White_@2x.png"
+        alt="Lens-White"
+        className={` hidden dark:flex hover:bg-primary rounded-lg`}
+        width={24} height={24}
+      />
+    </>
   )
 }

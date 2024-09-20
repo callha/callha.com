@@ -1,14 +1,24 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "./gui/Header";
 import Footer from "./gui/Footer";
 
 import Providers from './providers'
+import localFont from "next/font/local";
+
+const geistSans = localFont({
+  src: "./fonts/GeistVF.woff",
+  variable: "--font-geist-sans",
+  weight: "100 900",
+});
+const geistMono = localFont({
+  src: "./fonts/GeistMonoVF.woff",
+  variable: "--font-geist-mono",
+  weight: "100 900",
+});
 
 
 
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: {
@@ -33,7 +43,10 @@ export default function RootLayout({
         <meta name="twitter:image:width" content="<generated>" />
         <meta name="twitter:image:height" content="<generated>" />
       </head>
-      <body className={inter.className}>
+      <body 
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+      
+      >
         <Providers>
           <Header />
           {children}

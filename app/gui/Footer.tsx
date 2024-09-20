@@ -8,9 +8,9 @@ export default function Footer() {
 
 
             <div className="flex justify-center ">
-                <footer className="footer max-w-screen-xl p-6 lg:p-8  text-base-content">
+                <footer className="footer  max-w-screen-xl p-6 lg:p-8  text-base-content">
                     <aside>
-                        <img src="/logoimg/Callha透明绿字.png" alt="/logoimg/Callha透明绿字.png" className="w-full h-16" />
+                        <img src="/logoimg/Callha透明绿字.png" alt="/logoimg/Callha透明绿字.png" className="max-w-64 " />
                         <div className="place-self-start md:place-self-end pt-8">
                             <div className="grid grid-flow-col gap-4">
                                 <MediaLink />
@@ -53,7 +53,7 @@ export default function Footer() {
             <div className="flex justify-center border-t bg-base-200 text-base-content border-base-300 ">
                 <div className=" footer max-w-screen-xl px-6 lg:px-8 py-4">
                     <div className="place-self-start md:place-self-center text-gray-400 flex flex-col md:flex-row gap-2">
-                        <p className="flex flex-col gap-1 md:flex-row">都安酷哈网络科技工作室 <span> Copyright © 2024 callha.com All rights reserved.</span></p>
+                        <p className="flex flex-col gap-1 md:flex-row">都安酷哈网络科技工作室 <span> © 2024 callha.com All rights reserved.</span></p>
                         <a href="https://beian.miit.gov.cn/" className="link link-hover flex flex-row gap-1" target='_blank'>
                             <img src="/工业和信息化部政务服务平台.png" alt="工业和信息化部政务服务平台.png" className=" w-4 h-4 " />
                             桂ICP备2024042442号-1
