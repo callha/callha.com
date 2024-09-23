@@ -30,46 +30,48 @@ export default function MediaLink() {
         </b>
       </motion.div> */}
 
-      <motion.div whileHover={{ scale: 1.2 }} >
-        <Link href="https://www.douyin.com/user/MS4wLjABAAAAJnJeg10T2H-qWzjz1QpIjUgBtUU2kXi-Y2MM2unaDC2VEzkvliDMqQQN3jZikXBG" target='_blank' /* className="tooltip" data-tip="www.douyin.com/user/callha" */>
-          <FaTiktok className="w-8 h-8" />
-        </Link >
-      </motion.div>
+
 
       <motion.div whileHover={{ scale: 1.2 }} >
-        <Link href="https://weibo.com/u/5902341253" target='_blank'/*  className="tooltip" data-tip="weibo.com/u/5902341253" */>
+        <Link href="https://weibo.com/u/5902341253" target='_blank'>
           <RiWeiboFill className="w-8 h-8" />
         </Link >
       </motion.div>
 
       <motion.div whileHover={{ scale: 1.2 }} >
-        <Link href="https://x.com/callha_web3" target='_blank' /* className="tooltip" data-tip="x.com/callha_web3" */>
+        <Link href="https://x.com/callha_web3" target='_blank' >
           <FaSquareXTwitter className="w-8 h-8" />
         </Link >
       </motion.div>
 
       <motion.div whileHover={{ scale: 1.2 }} >
-        <Link href="https://t.me/callha_web3" target='_blank' /* className="tooltip" data-tip="x.com/callha_web3" */>
+        <Link href="https://t.me/callha_web3" target='_blank' >
           <FaTelegram className="w-8 h-8" />
         </Link >
       </motion.div>
 
+{/*       <motion.div whileHover={{ scale: 1.2 }} >
+        <Link href="https://www.tiktok.com/@callha.com" target='_blank' >
+          <FaTiktok className="w-8 h-8" />
+        </Link >
+      </motion.div> */}
+      
       <motion.div whileHover={{ scale: 1.2 }} >
-        <Link href="https://github.com/callha" target='_blank' /* className="tooltip" data-tip="x.com/callha_web3" */>
+        <Link href="https://github.com/callha" target='_blank' >
           <FaGithub className="w-8 h-8" />
         </Link >
       </motion.div>
 
-      <motion.div whileHover={{ scale: 1.2 }} >
-        <Link href="https://share.lens.xyz/u/lens/callha" target='_blank' /* className="tooltip" data-tip="x.com/callha_web3" */>
+{/*       <motion.div whileHover={{ scale: 1.2 }} >
+        <Link href="https://share.lens.xyz/u/lens/callha" target='_blank' >
           <Image 
             src="/Icon-T-White_@2x.png"
             alt="Lens-Black"
             className={` hover:bg-primary rounded-full`}
-            width={24} height={24}
+            width={26} height={26}
           />
         </Link >
-      </motion.div>
+      </motion.div> */}
     </>
   )
 }

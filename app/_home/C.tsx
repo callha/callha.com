@@ -33,16 +33,16 @@ export default function Example() {
 
 
 
-        <div className="mx-auto max-w-4xl lg:text-center">
+        <div className="mx-auto  lg:text-center">
 
           <h1 className="text-xl font-semibold leading-7 text-info">关于我们</h1>
           <p className="mt-2 text-3xl font-bold tracking-tight  sm:text-4xl">
             我们来自用户，既是构建者，也是拥有者
           </p>
-          <p className="mt-6 text-lg leading-8 text-[#6a6a6a]">
-            Callha / 酷哈网络科技工作室注册主体在中国，遵守当地法律制度及不同地区的法律制度，为探索web3行业合规性
+          <p className="mt-6 text-xl leading-8 text-[#6a6a6a]">
+            Callha / 酷哈网络科技工作室注册主体在中国，遵守当地法律制度及不同地区的法律制度，为探索Web3行业合规性
             <br />
-            希望探索出向共产主义前进的技术，通过技术改变生产关系，为世界文明进步做贡献,让世界变得更好
+            希望探索出向共产主义前进的技术，通过技术改变生产关系，为世界文明进步做贡献，让世界变得更好
             <br />
             相信Web3和区块链发展至今不仅仅是技术和互联网进步，更是一种能延伸到各领域的积极理念
             <br />
@@ -55,13 +55,13 @@ export default function Example() {
           <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-5 md:max-w-none md:grid-cols-2 lg:gap-y-16">
             {features.map((feature) => (
               <div key={feature.name} className="relative pl-20 shadow-md p-6 bg-[#C0E218] rounded-lg">
-                <dt className=" text-base font-semibold leading-7 text-[#000]">
+                <dt className=" text-2xl font-semibold leading-7 text-[#000]">
                   <div className="absolute left-5 top-7 flex h-10 w-10 items-start  rounded-lg bg-[#C0E218]">
                     <feature.icon className="h-6 w-6 text-[#3f1de7]" aria-hidden="true" />
                   </div>
                   {feature.name}
                 </dt>
-                <dd className="mt-2 text-base leading-7 text-neutral-600">{feature.description}</dd>
+                <dd className="mt-2 text-xl leading-7 text-neutral-600">{feature.description}</dd>
               </div>
             ))}
           </dl>

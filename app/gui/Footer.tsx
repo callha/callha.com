@@ -11,7 +11,7 @@ export default function Footer() {
                 <footer className="footer  max-w-screen-xl p-6 lg:p-8  text-base-content">
                     <aside>
                         <img src="/logoimg/Callha透明绿字.png" alt="/logoimg/Callha透明绿字.png" className="max-w-64 " />
-                        <div className="place-self-start md:place-self-end pt-8">
+                        <div className="place-self-center pt-8">
                             <div className="grid grid-flow-col gap-4">
                                 <MediaLink />
                             </div>

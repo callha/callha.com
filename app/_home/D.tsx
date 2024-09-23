@@ -7,7 +7,7 @@ const people = [
   {
     name: ' Jiangban Qin',
     role: '创始人',
-    imageUrl: 'https://qinjiangban.site/favicon.ico',
+    imageUrl: 'https://aqua-wrong-booby-224.mypinata.cloud/ipfs/QmXsMMgye3xYXCTZcRMXYcDMoq2EKvVyhzjEcDsiDC5Agp',
     website: 'https://qinjiangban.site',
     x: 'https://x.com/qinjiangban',
     lens: 'https://share.lens.xyz/u/lens/qinjiangban',
@@ -65,13 +65,18 @@ const people = [
 export default function D() {
   return (
     <div className=" py-24 sm:py-32">
+
+
+
       <div className="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
+
         <div className="max-w-2xl bg-[#C0E218] p-2 rounded-lg">
           <h2 className="text-3xl font-bold tracking-tight  sm:text-4xl text-[#000]">认识我们的成员</h2>
           <p className="mt-6 text-lg leading-8 text-[#000]">
             一起构建Web3
           </p>
         </div>
+
         <ul role="list" className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
           {people.map((person) => (
             <li key={person.name}>
@@ -111,7 +116,10 @@ export default function D() {
             </li>
           ))}
         </ul>
+        
       </div>
+
+
     </div>
   )
 }

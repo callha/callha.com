@@ -32,11 +32,11 @@ a:hover {
 /*--选择器----*/
 ::selection {
     background: #C0E218;
-    color: #3f1de7;
+    color: #000;
 }
 
 ::-moz-selection {
-    color: #3f1de7;
+    color: #000;
     background: #C0E218;
 }
 
