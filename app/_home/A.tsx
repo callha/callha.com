@@ -19,6 +19,14 @@ const people = [
     title: '咨询',
   },
   {
+    href: '/products/#开发',
+    title: '开发',
+  },
+  {
+    href: '/products/#电商',
+    title: '电商'
+  },
+  {
     href: '/products/#市场',
     title: '市场',
   },
@@ -33,14 +41,6 @@ const people = [
   {
     href: '/products/#设计',
     title: '设计',
-  },
-  {
-    href: '/products/#开发',
-    title: '开发',
-  },
-  {
-    href:'/products/#电商',
-    title:'电商'
   }
 ]
 
@@ -58,7 +58,7 @@ export default function Example() {
           <dl className="grid max-w-xl grid-cols-1 gap-x-5 gap-y-5 md:max-w-none md:grid-cols-2">
 
             {people.map((person) => (
-              <Link href={person.href} className="btn btn-primary btn-active text-xl hover:text-secondary">{person.title} →</Link>
+              <Link href={person.href} className="btn  btn-primary btn-active text-2xl hover:text-secondary">{person.title} →</Link>
             ))}
 
 

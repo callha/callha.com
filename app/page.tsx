@@ -21,20 +21,20 @@ export default function Home() {
         <div className=" flex justify-center items-center text-center  h-[calc(100vh-69px)] text-neutral-content  flex-col-reverse">
 
           <div className="max-w-4xl ">
-            <h1 className="mb-8 md:mb-16 text-7xl md:text-9xl font-bold text-white">
+            <h1 className="text-4xl md:text-7xl font-bold text-white">
               <span className="text-[#C0E218]">CallHa </span>酷哈</h1>
             <h1 className="my-4 text-xl sm:text-2xl font-bold text-white">酷哈网络科技工作室</h1>
             <p className="px-2 mb-5 text-white text-xl md:text-2xl">让数据信息可拥有、可信任、有价值，构建<b className="">理想的Web3</b></p>
 
 
-            <div className='flex flex-col  gap-4 justify-center mt-16 px-12 md:px-24'>
-              <Link role="button" className="btn btn-primary   hover:text-[#3f1de7] text-2xl font-bold" href={'/products'}>业务范围 →</Link>
-              <Link role="button" className="btn btn-primary btn-outline  text-base-100 hover:text-[#3f1de7] text-2xl font-bold " href={'https://callhanet.feishu.cn/share/base/form/shrcnKgHyUU905ToaA3BzzW5ZMd'} target='_blank'>联系我们 ↗</Link>
+            <div className='mt-5 self-center flex gap-2 w-full sm:w-auto flex-col sm:flex-row justify-center px-12'>
+              <Link role="button" className="btn btn-primary   hover:text-[#3f1de7] text-xl md:text-2xl font-bold rounded-full " href={'/products'}>业务范围 →</Link>
+              <Link role="button" className="btn btn-primary  btn-outline  text-base-100 hover:text-[#3f1de7] text-xl md:text-2xl font-bold rounded-full" href={'https://callhanet.feishu.cn/share/base/form/shrcnKgHyUU905ToaA3BzzW5ZMd'} target='_blank'>联系我们 ↗</Link>
             </div>
 
           </div>
 
-          <img src="/logo/透明LOGO绿色.png" alt="/logo/透明LOGO绿色.png" className='md:hidden image-full w-60  m-4' />
+          <img src="/logo/透明LOGO绿色.png" alt="/logo/透明LOGO绿色.png" className=' image-full w-60  m-4' />
 
         </div>
 

@@ -59,15 +59,15 @@ const config: Config = {
           "success": "#00ff00",
           "warning": "#F37121",
           "error": "#ff0000",
-          "--rounded-box": "0.5rem", //边框半径圆角盒实用类，用于卡片等大型盒子
-          "--rounded-btn": "0.5rem",//border-radius圆角btn实用程序类，用于按钮和类似元素
+          "--rounded-box": "1rem", //边框半径圆角盒实用类，用于卡片等大型盒子
+          "--rounded-btn": "5rem",//border-radius圆角btn实用程序类，用于按钮和类似元素
           "--rounded-badge": "0.5rem", //边框半径圆形徽章实用类，用于徽章及类似产品
           "--animation-btn": "0.25s", //单击按钮时的动画持续时间
           "--animation-input": "0.2s", //复选框、切换、单选等输入的动画持续时间
           "--btn-focus-scale": "0.95", //聚焦按钮时的缩放变换
           "--border-btn": "1px", //聚焦按钮时的缩放变换
           "--tab-border": "1px", //选项卡的边框宽度
-          "--tab-radius": "0.5rem", //选项卡的边界半径 
+          "--tab-radius": "1rem", //选项卡的边界半径 
         }
       }
     ],//false:仅亮+暗|true:所有主题|array:像这样的特定主题[“亮”、“暗”、“纸杯蛋糕”]

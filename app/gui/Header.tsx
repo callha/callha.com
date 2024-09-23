@@ -11,7 +11,7 @@ export default function Header() {
     const { theme, setTheme } = useTheme();
     return (
         <div className="bg-base-200 justify-around  z-50  flex  fixed top-0 left-0 right-0 transition-transform duration-300 px-2">
-            <div className="navbar bg-base-200  max-w-screen-xl mx-auto  shadow-md ">
+            <div className="navbar bg-base-200  max-w-screen-xl mx-auto  ">
 
                 <div className="navbar-start">{/* 左 */}
                     <Link href={'/'} className="border-base-content">

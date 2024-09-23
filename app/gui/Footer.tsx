@@ -36,8 +36,8 @@ export default function Footer() {
                     </nav>
                     <nav>
                         <h6 className="footer-title">关于</h6>
-                        <Link href="https://callhanet.feishu.cn/share/base/form/shrcnKgHyUU905ToaA3BzzW5ZMd" className="link link-hover" target='_blank'>联系我们</Link >
-                        <Link href="https://callhanet.feishu.cn/docx/NOEUdkurRohsFGxscUQcMQAznSh?from=from_copylink" className="link link-hover" target='_blank'>加入我们</Link >
+                        <Link href="https://callhanet.feishu.cn/share/base/form/shrcnKgHyUU905ToaA3BzzW5ZMd" className="link link-hover" target='_blank'>联系我们↗</Link >
+                        <Link href="https://callhanet.feishu.cn/docx/NOEUdkurRohsFGxscUQcMQAznSh?from=from_copylink" className="link link-hover" target='_blank'>加入我们↗</Link >
                         <Link href="/blog" className="link link-hover">博客动态</Link >
                         <Link href="/about" className="link link-hover">关于我们</Link >
                     </nav>
