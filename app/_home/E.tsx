@@ -1,6 +1,11 @@
 'use client'
 
+import { useTranslations } from "next-intl";
+
 export default function E() {
+  const t = useTranslations();
+
+
   return (
     <div className=" flex justify-center items-center">
       <div className="bg-[#C0E218] py-24 sm:py-32 w-screen">

@@ -8,13 +8,15 @@ import D from "./_home/D";
 import E from "./_home/E";
 import { RiAlertLine } from 'react-icons/ri';
 import MediaLink from './gui/MediaLink';
+import { useTranslations } from 'next-intl';
 
 export default function Home() {
-
+  const t = useTranslations();
+  
   return (
     <main className=''>
 
-      <div className=" min-h-[100vh]  relative isolate overflow-hidden" style={{ backgroundImage: 'url(/repeated-square-dark.png)' }}>
+      <div className=" max-h-[80vh] min-h-[100vh]  relative isolate overflow-hidden" style={{ backgroundImage: 'url(/repeated-square-dark.png)' }}>
         <div className="hero-overlay bg-opacity-60"></div>
 
 
@@ -22,19 +24,19 @@ export default function Home() {
 
           <div className="max-w-4xl ">
             <h1 className="text-4xl md:text-7xl font-bold text-white">
-              <span className="text-[#C0E218]">CallHa </span>酷哈</h1>
-            <h1 className="my-4 text-xl sm:text-2xl font-bold text-white">酷哈网络科技工作室</h1>
-            <p className="px-2 mb-5 text-white text-xl md:text-2xl">让数据信息可拥有、可信任、有价值，构建<b className="">理想的Web3</b></p>
+              <span className="text-[#C0E218]">CallHa </span></h1>
+            <h1 className="my-4 text-xl sm:text-2xl font-bold text-white">{t('酷哈网络科技工作室')}</h1>
+            <p className="px-2 mb-5 text-white text-xl md:text-2xl">{t('让数据信息可拥有、可信任、有价值，构建')} <b className="">{t('理想的Web3')}</b></p>
 
 
             <div className='mt-5 self-center flex gap-2 w-full sm:w-auto flex-col sm:flex-row justify-center px-12'>
-              <Link role="button" className="btn btn-primary   hover:text-[#3f1de7] text-xl md:text-2xl font-bold rounded-full " href={'/products'}>业务范围 →</Link>
-              <Link role="button" className="btn btn-primary  btn-outline  text-base-100 hover:text-[#3f1de7] text-xl md:text-2xl font-bold rounded-full" href={'https://callhanet.feishu.cn/share/base/form/shrcnKgHyUU905ToaA3BzzW5ZMd'} target='_blank'>联系我们 ↗</Link>
+              <Link role="button" className="btn btn-primary   hover:text-[#3f1de7] text-xl md:text-2xl font-bold rounded-full " href={'/products'}>{t('业务范围')} →</Link>
+              <Link role="button" className="btn btn-primary  btn-outline  text-base-100 hover:text-[#3f1de7] text-xl md:text-2xl font-bold rounded-full" href={'https://callhanet.feishu.cn/share/base/form/shrcnKgHyUU905ToaA3BzzW5ZMd'} target='_blank'>{t('联系我们')} ↗</Link>
             </div>
 
           </div>
 
-          <img src="/logo/透明LOGO绿色.png" alt="/logo/透明LOGO绿色.png" className=' image-full w-60  m-4' />
+          <img src="/logo/透明LOGO绿色.png" alt="/logo/透明LOGO绿色.png" className=' image-full w-2/5 md:w-60  m-4' />
 
         </div>
 
@@ -49,7 +51,7 @@ export default function Home() {
       <B />
       <C />
       <D />
-     {/*  <E /> */}
+      {/*  <E /> */}
 
 
     </main>
@@ -62,7 +64,7 @@ export default function Home() {
 
 function Absolute() {
   return (
-    <>
+    <div>
       <div className="absolute left-1/3 top-0 -z-10 -translate-x-1/2 blur-3xl xl:-top-6" aria-hidden="true">
         <div
           className="aspect-[1155/1000] w-[72.1875rem] bg-gradient-to-tr from-[#C0E218] to-[#3f1de7] opacity-30"
@@ -82,6 +84,6 @@ function Absolute() {
           }}
         />
       </div>
-    </>
+    </div>
   )
 }

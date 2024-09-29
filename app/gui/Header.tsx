@@ -6,12 +6,16 @@ import ThemeSwap from "./ThemeSwap";
 import { RiCloseLargeFill, RiMenuFill, RiMoonLine, RiSunLine, RiTranslate } from "react-icons/ri";
 import Image from "next/image";
 import { useTheme } from "next-themes";
+import { useTranslations } from "next-intl";
+import LocaleModal from "@/app/gui/LocaleSwap";
 export default function Header() {
     const pathname = usePathname();
     const { theme, setTheme } = useTheme();
+    const t = useTranslations();
     return (
-        <div className="bg-base-200 justify-around  z-50  flex  fixed top-0 left-0 right-0 transition-transform duration-300 px-2">
+        <div className="min-w-80 w-screen bg-base-200 justify-around  z-50  flex  fixed top-0 left-0 right-0 transition-transform duration-300 px-2">
             <div className="navbar bg-base-200  max-w-screen-xl mx-auto  ">
+
 
                 <div className="navbar-start">{/* 左 */}
                     <Link href={'/'} className="border-base-content">
@@ -24,10 +28,10 @@ export default function Header() {
                 {/* 手机隐藏navbar-center */}
                 <div className="navbar-center hidden md:flex">{/* 中 */}
                     <ul className="menu menu-horizontal px-1 gap-4">
-                        <li><LinkNavbar href='/' Name='首页' /></li>
-                        <li><LinkNavbar href='/products' Name='业务' /></li>
-                        <li><LinkNavbar href='/blog' Name='博客' /></li>
-                        <li><LinkNavbar href='/about' Name='关于' /></li>
+                        <li><LinkNavbar href='/' Name={t('首页')} /></li>
+                        <li><LinkNavbar href='/products' Name={t('业务')} /></li>
+                        <li><LinkNavbar href='/blog' Name={t('博客')} /></li>
+                        <li><LinkNavbar href='/about' Name={t('关于')} /></li>
                         {/*                         <li>
                             <details className=" font-bold text-xl">
                                 <summary>关于</summary>
@@ -42,34 +46,31 @@ export default function Header() {
                     </ul>
                 </div>
 
-
                 {/* 按钮 */}
                 <div className="navbar-end">{/* 右 */}
-                    <div className="dropdown dropdown-end flex-row flex gap-2">
-                        <div className="btn  btn-square btn-ghost rounded-full">
-                            <RiTranslate size={24} />
-                        </div>
 
+                    <LocaleModal />
+
+                    <div className="dropdown dropdown-end flex-row flex gap-2">
                         <div className="dropdown dropdown-bottom dropdown-end">
-                            <div tabIndex={0} role="button" className="md:hidden btn  btn-square btn-ghost rounded-full">
+                            <label tabIndex={1} role="button" className="md:hidden btn  btn-square btn-ghost rounded-full ">
+                                {/* swap swap-rotate */}
+                                {/* <input type="checkbox" /> */}
                                 <RiMenuFill className=" w-7 h-7 swap-off" />
                                 {/* <RiCloseLargeFill className=" w-7 h-7 swap-on" /> */}
-                            </div>
+                            </label>
 
-                            <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
-                                <li><LinkNavbar href='/' Name='首页' /></li>
-                                <li><LinkNavbar href='/products' Name='业务' /></li>
-                                <li><LinkNavbar href='/blog' Name='博客' /></li>
-                                <li><LinkNavbar href='/about' Name='关于' /></li>
+                            <ul tabIndex={1} className="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
+                                <li><LinkNavbar href='/' Name={t('首页')} /></li>
+                                <li><LinkNavbar href='/products' Name={t('业务')} /></li>
+                                <li><LinkNavbar href='/blog' Name={t('博客')} /></li>
+                                <li><LinkNavbar href='/about' Name={t('关于')} /></li>
                             </ul>
                         </div>
-
-
                     </div>
 
-
-
                 </div>
+
 
             </div>
         </div>
@@ -78,7 +79,7 @@ export default function Header() {
 function LinkNavbar({ href, Name }: any) {
     const pathname = usePathname();
     return (
-        <Link href={href} className={`header_link font-bold text-2xl ${pathname === `${href}` ? "active" : ""
+        <Link href={href} className={`header_link font-bold text-xl ${pathname === `${href}` ? "active" : ""
             }`}>
             {Name}
         </Link>

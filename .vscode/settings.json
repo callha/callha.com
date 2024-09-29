@@ -1,3 +1,37 @@
 {
-    "i18next.i18nPaths": "e:/AAAAAAAAA-VSCode/CoinIPFS/CoinIPFS-Site/locales"
+    "i18n-ally.localesPaths": ["./i18n"],
+    "i18n-ally.keystyle": "nested",
+    "i18n-ally.sourceLanguage": "zh",
+    "i18n-ally.displayLanguage": "zh",
+    "i18n-ally.enabledFrameworks": [
+        "react",
+        "next-intl"
+    ],
+    "i18n-ally.enabledParsers": [
+        "js",
+        "ts",
+        "json",
+        "json5"
+    ],
+    "i18n-ally.extract.ignoredByFiles": {
+
+    },
+    "i18n-ally.ignoredLocales": [
+
+    ],
+    "i18n-ally.ignoreFiles": [
+
+    ],
+    "i18n-ally.translate.engines": [
+        "google",
+        "google-cn",
+        "baidu"
+    ],
+    "i18n-ally.translate.libre.apiRoot": "http://localhost:5000",
+    "i18n-ally.editor.preferEditor": true,
+    "i18next.customWrapX": "t('')",
+    "i18next.i18nPaths": "i18n",
+    "i18next.namespace": "false",
+    "i18next.sourceLocale": "zh",
+    "i18next.defaultTranslatedLocale": "en"
 }
