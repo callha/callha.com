@@ -5,13 +5,15 @@
 :root {
     --a-hover: #C0E218;
     --w3m-accent-color: #9dba0d;
-
+    --link-hover-background: rgba(255, 255, 255, 0.5) !important;
+    --navlink-color: #5453537c !important;
 }
 
 [data-theme='mytheme'] {
     --a-hover: #C0E218;
     --w3m-accent-color: var(--a-hover);
-
+    --link-hover-background: rgba(255, 255, 255, 0.05) !important;
+    --navlink-color: #ece1e184 !important;
 }
 
 a:hover {

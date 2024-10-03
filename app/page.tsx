@@ -50,8 +50,8 @@ export default function Home() {
       <A />
       <B />
       <C />
-      <D />
-      {/*  <E /> */}
+      {/* <D /> */}
+       <E />
 
 
     </main>

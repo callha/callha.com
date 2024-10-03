@@ -25,7 +25,8 @@
     "i18n-ally.translate.engines": [
         "google",
         "google-cn",
-        "baidu"
+        "baidu",
+        "openai"
     ],
     "i18n-ally.translate.libre.apiRoot": "http://localhost:5000",
     "i18n-ally.editor.preferEditor": true,

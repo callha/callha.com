@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     template: `%s | Callha 酷哈网络科技工作室`
   },
 
-  description: "CallHa,酷哈网络科技工作室,区块链,Web3,市场营销策划,NFT品牌营销,让数据信息可拥有、可信任、有价值,Dapp开发,网站开发,去中心化应用开发,智能合约开发,酷哈,callha,酷哈web3",
+  description: "CallHa,酷哈网络科技工作室,区块链,Web3,市场营销策划,NFT品牌营销,让数据信息可拥有、可信任、有价值,Dapp开发,网站开发,去中心化应用开发,智能合约开发,酷哈,callha,酷哈web3，都安酷哈网络科技工作室（个体工商户），web3营销策划",
 };
 
 export default async function RootLayout({ children }) {

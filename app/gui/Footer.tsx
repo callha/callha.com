@@ -61,10 +61,10 @@ export default function Footer() {
                             <img src="/工业和信息化部政务服务平台.png" alt="工业和信息化部政务服务平台.png" className=" w-4 h-4 " />
                             桂ICP备2024042442号-1
                         </a>
-                        <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=**********" className="link link-hover gap-1 flex flex-row" target='_blank'>
+{/*                         <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=**********" className="link link-hover gap-1 flex flex-row" target='_blank'>
                             <img src="/全国互联网安全管理服务平台.png" alt="全国互联网安全管理服务平台.png" className=" w-4 h-4" />
                             桂公安备********号
-                        </a>
+                        </a> */}
                     </div>
 
                 </div>

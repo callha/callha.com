@@ -24,7 +24,7 @@ function LocaleSwap() {
             {languages.map(({ locale, label }) => (
                 <Link
                     key={locale}
-                    href="/"
+                    href=""
                     locale={locale}
                     className={`min-w-24 md:min-w-32 btn  btn-outline ${currentLocale === locale ? "btn btn-outline btn-active btn-primary" : ""}`}  // 根据选中状态添加 class
                     onClick={() => handleLocaleChange(locale)}
@@ -57,6 +57,9 @@ export default function LocaleModal() {
             {/* 模态框 */}
             <dialog id="my_modal_2" className="modal">
                 <div className="modal-box">
+                    <form method="dialog">
+                        <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                    </form>
                     {/* 语言切换部分 */}
                     <div className="py-4">
                         <LocaleSwap />
