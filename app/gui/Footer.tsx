@@ -23,7 +23,7 @@ export default function Footer() {
 
                     <nav>
                         <h6 className="footer-title">{t('产品')}</h6>
-                        <Link href="https://coinipfs.com" className="link link-hover" target='_blank'>{t('Web3社交平台')}Hayi↗</Link >
+                        <Link href="https://coolha.top" className="link link-hover" target='_blank'>{t('Web3社交平台')}coolha.top↗</Link >
                         <Link href="" className="link link-hover" target='_blank'>{t('酷哈数字资产')} NFT↗</Link >
                     </nav>
                     <nav>

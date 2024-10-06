@@ -9,8 +9,8 @@ export default function Example() {
   const t = useTranslations();
   const people = [
     {
-      href: '/products/#HaYi',
-      title: 'HaYi',
+      href: '/products/#coolha.top',
+      title: 'coolha.top',
     },
     {
       href: '/products/#Qiancset',

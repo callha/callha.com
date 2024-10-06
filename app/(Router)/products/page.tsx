@@ -14,13 +14,13 @@ export default function Products() {
         <h1 className="text-xl font-semibold leading-7 text-info text-center">{t('产品')}</h1>
         <div className=" flex justify-evenly items-center md:flex-row flex-col px-4 gap-8">
 
-          <div id='Hayi' className="card card-compact bg-base-100 shadow-xl border w-full max-w-96 h-auto mt-4">
+          <div id='coolha.top' className="card card-compact bg-base-100 shadow-xl border w-full max-w-96 h-auto mt-4">
             <figure><img src='/img/coinipfs.png' alt='HaYi' className=" w-full h-auto" /></figure>
             <div className="card-body border-t ">
-              <h2 className="card-title">Hayi</h2>
+              <h2 className="card-title">coolha.top</h2>
               <p>{t('基于Lens协议开发的去中心化社交应用')}, {t('开发中仅测试用')}</p>
               <div className="card-actions justify-end">
-                <Link href='https://coinipfs.com' className="btn btn-primary hover:text-secondary text-lg" target='_blank'>{t('前往')}↗</Link>
+                <Link href='https://coolha.top' className="btn btn-primary hover:text-secondary text-lg" target='_blank'>{t('前往')}↗</Link>
               </div>
             </div>
           </div>
