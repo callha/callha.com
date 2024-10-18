@@ -15,7 +15,7 @@ export default function Products() {
         <div className=" flex justify-evenly items-center md:flex-row flex-col px-4 gap-8">
 
           <div id='coolha.top' className="card card-compact bg-base-100 shadow-xl border w-full max-w-96 h-auto mt-4">
-            <figure><img src='/img/coinipfs.png' alt='HaYi' className=" w-full h-auto" /></figure>
+            <figure><img src='/img/coolhatop.png' alt='coolhatop' className=" w-full h-auto" /></figure>
             <div className="card-body border-t ">
               <h2 className="card-title">coolha.top</h2>
               <p>{t('基于Lens协议开发的去中心化社交应用')}, {t('开发中仅测试用')}</p>

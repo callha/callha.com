@@ -9,12 +9,12 @@ export default function page() {
     const features = [
       {
         name: t('使命'),
-        description: t('让数据信息可拥有、可信任、有价值'),
+        description: t('为推动互联网进步和世界文明进步，创造激动人心的产品服务，让世界变得更好'),
         icon: FaBtc,
       },
       {
         name: t('愿景'),
-        description: t('为推动互联网进步和世界文明进步，创造激动人心的产品服务，让世界变得更好'),
+        description: t('让数据信息可拥有、可信任、有价值'),
         icon: FaEthereum,
       },
       {

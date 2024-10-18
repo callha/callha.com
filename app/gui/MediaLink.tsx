@@ -39,30 +39,25 @@ export default function MediaLink() {
       </motion.div>
 
       <motion.div whileHover={{ scale: 1.2 }} >
-        <Link href="https://x.com/callha_web3" target='_blank' >
-          <FaSquareXTwitter className="w-8 h-8" />
-        </Link >
-      </motion.div>
-
-      <motion.div whileHover={{ scale: 1.2 }} >
-        <Link href="https://t.me/callha_web3" target='_blank' >
-          <FaTelegram className="w-8 h-8" />
-        </Link >
-      </motion.div>
-
-{/*       <motion.div whileHover={{ scale: 1.2 }} >
-        <Link href="https://www.tiktok.com/@callha.com" target='_blank' >
+        <Link href="https://www.douyin.com/user/MS4wLjABAAAArbB4k7KiHe7ibpfcj0p3-bpnwvk6pC48HFFuFi6hevOPA9tizGcnudHpKrUGEHGI?from_tab_name=main" target='_blank' >
           <FaTiktok className="w-8 h-8" />
         </Link >
-      </motion.div> */}
-      
+      </motion.div>
+
       <motion.div whileHover={{ scale: 1.2 }} >
         <Link href="https://github.com/callha" target='_blank' >
           <FaGithub className="w-8 h-8" />
         </Link >
       </motion.div>
-
+      
 {/*       <motion.div whileHover={{ scale: 1.2 }} >
+        <Link href="https://www.tiktok.com/@callha_com" target='_blank' >
+          <FaTiktok className="w-8 h-8" />
+        </Link >
+      </motion.div> */}
+
+
+      {/*       <motion.div whileHover={{ scale: 1.2 }} >
         <Link href="https://share.lens.xyz/u/lens/callha" target='_blank' >
           <Image 
             src="/Icon-T-White_@2x.png"
