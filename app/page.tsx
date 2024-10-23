@@ -12,7 +12,7 @@ import { useTranslations } from 'next-intl';
 
 export default function Home() {
   const t = useTranslations();
-  
+
   return (
     <main className=''>
 
@@ -30,8 +30,8 @@ export default function Home() {
 
 
             <div className='mt-5 self-center flex gap-2 w-full sm:w-auto flex-col sm:flex-row justify-center px-12'>
-              <Link role="button" className="btn btn-primary   hover:text-[#3f1de7] text-xl md:text-2xl font-bold rounded-full " href={'/products'}>{t('业务范围')} →</Link>
-              <Link role="button" className="btn btn-primary  btn-outline  text-base-100 hover:text-[#3f1de7] text-xl md:text-2xl font-bold rounded-full" href={'https://callhanet.feishu.cn/share/base/form/shrcnKgHyUU905ToaA3BzzW5ZMd'} target='_blank'>{t('联系我们')} ↗</Link>
+              <Link role="button" className="btn btn-primary   hover:text-[#3f1de7] text-xl md:text-2xl font-bold rounded-full " href={'https://callhanet.feishu.cn/share/base/form/shrcnKgHyUU905ToaA3BzzW5ZM'}>{t('联系我们')} ↗</Link>
+              <Link role="button" className="btn btn-primary  btn-outline  text-base-100 hover:text-[#3f1de7] text-xl md:text-2xl font-bold rounded-full" href={'/about'} target='_blank'>{t('关于我们')} →</Link>
             </div>
 
           </div>
@@ -51,7 +51,7 @@ export default function Home() {
       <B />
       <C />
       {/* <D /> */}
-       <E />
+      <E />
 
 
     </main>

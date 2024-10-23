@@ -2,7 +2,7 @@
 
 import { useTranslations } from "next-intl";
 import { FaBtc, FaEthereum, FaCommentsDollar, FaDonate } from "react-icons/fa";
-import { RiAlertLine, RiApps2Line, RiFunctionLine, RiFundsLine, RiNftLine } from "react-icons/ri";
+import { RiAdvertisementLine, RiAlertLine, RiApps2Line, RiFunctionLine, RiFundsLine, RiNftLine } from "react-icons/ri";
 
 
 
@@ -17,17 +17,17 @@ export default function Example() {
     {
       name: t('Web3应用场景落地'),
       description: t('Dapp开发，链上智能合约开发，web3项目网站。结合业务场景需求，定制开发'),
-      icon: RiApps2Line ,
+      icon: RiApps2Line,
     },
     {
       name: t('曝光和增长'),
       description: t('平台垂直广告，精准营销。为品牌调研和内容策划，增强消费者和粉丝粘性。'),
-      icon: RiFundsLine ,
+      icon: RiAdvertisementLine,
     },
     {
       name: t('品牌建设与推广'),
       description: t('策划品牌活动，品牌推广策略，品牌形象设计'),
-      icon: RiFunctionLine ,
+      icon: RiFundsLine,
     },
   ]
   return (

@@ -8,12 +8,12 @@ export default function page() {
             <div>生效日期：<strong>2024/9/14</strong></div>
             <h2>导言</h2>
             <p>
-                <i className=" text-primary">callha.com</i> 是由 <i>都安酷哈网络科技工作室</i> （以下简称“我们”）开发提供的门户网站。
+                <a href="https://callha.com" target='_blank' className=" hover:link-hover text-primary">callha.com</a> 是由 <b>都安酷哈网络科技工作室</b> （以下简称“我们”）开发提供的门户网站。
                 您在使用我们的服务时，我们可能会收集和使用您的相关信息。我们希望通过本《隐私政策》向您说明，在使用我们的服务时，我们如何收集、使用、储存和分享这些信息，以及我们为您提供的访问、更新、控制和保护这些信息的方式。
                 本《隐私政策》与您所使用的 <i>callha.com</i> 服务息息相关，希望您仔细阅读，在需要时，按照本《隐私政策》的指引，作出您认为适当的选择。本《隐私政策》中涉及的相关技术词汇，我们尽量以简明扼要的表述，并提供进一步说明的链接，以便您的理解。
             </p>
             <p><strong>您使用或继续使用我们的服务，即意味着同意我们按照本《隐私政策》收集、使用、储存和分享您的相关信息。</strong></p>
-            <p>如对本《隐私政策》或相关事宜有任何问题，请通过 <strong className=" text-primary">fqa@callha.com</strong> 与我们联系。</p>
+            <p>如对本《隐私政策》或相关事宜有任何问题，请通过 <span className=" text-primary">law@callha.com</span> 与我们联系。</p>
 
             <h2>1. 我们收集的信息</h2>
             <p>我们或我们的第三方合作伙伴提供服务时，可能会收集、储存和使用下列与您有关的信息。如果您不提供相关信息，可能影响您浏览网站的服务体验。</p>

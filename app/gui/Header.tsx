@@ -29,7 +29,6 @@ export default function Header() {
                 <div className="navbar-center hidden md:flex">{/* 中 */}
                     <ul className="menu menu-horizontal px-1 gap-4">
                         <li><LinkNavbar href='/' Name={t('首页')} /></li>
-                        <li><LinkNavbar href='/products' Name={t('业务')} /></li>
                         <li><LinkNavbar href='/blog' Name={t('博客')} /></li>
                         <li><LinkNavbar href='/about' Name={t('关于')} /></li>
                         {/*                         <li>
@@ -62,7 +61,6 @@ export default function Header() {
 
                             <ul tabIndex={1} className="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
                                 <li><LinkNavbar href='/' Name={t('首页')} /></li>
-                                <li><LinkNavbar href='/products' Name={t('业务')} /></li>
                                 <li><LinkNavbar href='/blog' Name={t('博客')} /></li>
                                 <li><LinkNavbar href='/about' Name={t('关于')} /></li>
                             </ul>
