@@ -32,11 +32,11 @@ export default function MediaLink() {
 
 
 
-      <motion.div whileHover={{ scale: 1.2 }} >
+{/*       <motion.div whileHover={{ scale: 1.2 }} >
         <Link href="https://weibo.com/u/5902341253" target='_blank'>
           <RiWeiboFill className="w-8 h-8" />
         </Link >
-      </motion.div>
+      </motion.div> */}
 
       <motion.div whileHover={{ scale: 1.2 }} >
         <Link href="https://www.douyin.com/user/MS4wLjABAAAArbB4k7KiHe7ibpfcj0p3-bpnwvk6pC48HFFuFi6hevOPA9tizGcnudHpKrUGEHGI?from_tab_name=main" target='_blank' >

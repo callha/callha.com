@@ -5,7 +5,6 @@ import { useTranslations } from "next-intl";
 
 export default function Footer() {
     const t = useTranslations();
-
     return (
         <div className="bg-base-200">
 
@@ -57,11 +56,13 @@ export default function Footer() {
                 <div className=" footer max-w-screen-xl px-6 lg:px-8 py-4">
                     <div className="place-self-start md:place-self-center text-gray-400 flex flex-col md:flex-row gap-2">
                         <p className="flex flex-col gap-1 md:flex-row">{t('酷哈网络科技工作室')}<span> © 2024 callha.com All rights reserved.</span></p>
+
                         <a href="https://beian.miit.gov.cn/" className="link link-hover flex flex-row gap-1" target='_blank'>
-                            <img src="/工业和信息化部政务服务平台.png" alt="工业和信息化部政务服务平台.png" className=" w-4 h-4 " />
-                            桂ICP备2024042442号-1
+                            {/* <img src='/工业和信息化部政务服务平台.png' alt='/工业和信息化部政务服务平台.png' className="w-4 h-4" /> */}
+                            {t('桂ICP备')}
                         </a>
-{/*                         <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=**********" className="link link-hover gap-1 flex flex-row" target='_blank'>
+
+                        {/*                         <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=**********" className="link link-hover gap-1 flex flex-row" target='_blank'>
                             <img src="/全国互联网安全管理服务平台.png" alt="全国互联网安全管理服务平台.png" className=" w-4 h-4" />
                             桂公安备********号
                         </a> */}
